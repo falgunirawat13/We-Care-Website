@@ -2,3 +2,13 @@
     font-family: "Inter", sans-serif;
     font-weight: 800;
 }
+
+.img1{
+    width: 80%;
+    height: 230px;
+    border-radius: 0;
+    margin-left: 55px;
+    margin-right: 45px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

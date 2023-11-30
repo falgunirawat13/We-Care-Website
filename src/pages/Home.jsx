@@ -168,7 +168,7 @@ const Home = () => {
   <section className='What'>
     <Container >
       <Row>
-        <Col lg='6' md='12' style={{marginLeft:'-42px'}}>        
+        <Col lg='6'  style={{marginLeft:'-42px'}}>        
           <div className="Content2">
             <div className='Main2'>
              <h1 class="main-head">WHAT WE DO? </h1>
@@ -181,7 +181,7 @@ const Home = () => {
          </div>
          </div>
         </Col>
-        <Col lg='6' md='12'style={{marginLeft:'25px'}}>
+        <Col lg='6' style={{marginLeft:'25px'}}>
         <MDBCarousel>
       <MDBCarouselItem
         className='w-100 d-block'
