@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', 'Sans-serif';
+  min-height: 100vh;
+}
+
+.Who{
+  background-image:  url('../assets/images/backgroundhome.jpg');
+  background-size: contain;
+  position: relative;
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+.Content1{    
+  max-height:500px;
+  text-align: justify;
+
+}
+
+
+.What{
+  background-color: #c7fbff;
+  width: 100%;   
+  position: relative;
+  padding:50px;
+}
+.Content2{
+    max-height: 500px;
+    text-align: justify;
+
+}
+
+
+.Camp{
+    /* margin-top: 40px; */
+    /* margin-bottom: 1%; */
+    background-image:  url('../assets/images/backgroundhome.jpg');
+    background-size: contain;
+}
+
+
+
+.cardi{
+    margin-top: 5px;
+    height: 250px;
+    width:100%;
+    border-radius: 2px !important;
+    
+}
+
+.cardcamp{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  max-width: 700px;
+  max-height: 1100px;
+  
+  
+}
+
+  
+
+.main-head{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+.main-head1{
+  font-weight: 600;
+}
+
+
+.animsection{
+    border: black 2px solid;
+    position: relative;
+    max-height: 5400px;
+}
+
+.animated{
+    width: 100% ;
+    margin-top: 45px;
+    /* height: 100px;
+    margin-bottom: 2px; */
+
+}
+
+.impact{
+  position: relative;
+    width: 100%;
+    height: 540px;
+    /* margin-bottom: 1%; */
+}
+
+
+.move-up-image {
+    animation: moveUp 1s forwards;
+  }
+  
+  @keyframes moveUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+.question {
+  position: relative;
+  /* background-image: url('../assets/images/backgroundhome.jpg');
+  background-size: contain; */
+  background-color: #c7fbff;
+  padding-bottom: 60px;
+  z-index: 1; 
+}
+
+.question .col-lg-6 {
+  max-height: 4000px;
+  overflow-y: auto;
+  z-index: 2; 
+}
+  .impactCard {
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+  .slider-container {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  .slide {
+    min-width: 100%;
+  }
+
+  .aboutheading a{
+    text-decoration: none !important;
+  }
+
+  .Content5{
+    text-align: justify;
+  }

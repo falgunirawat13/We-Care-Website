@@ -1,0 +1,16 @@
+.image-container {
+    position: relative; /* Make the container a positioning context */
+    width: 100%;
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: 400px; /* Set the height to match your image */
+}
+  .image-text {
+    position: absolute;
+    top: 220px; /* Adjust the position from the top as needed */
+    left: 100px; /* Adjust the position from the left as needed */
+    background-color: rgb(132, 202, 229,0.8);
+    color:black;
+    font-weight: 570;
+    font-size: 28px;
+    padding: 10px; /* Padding for text */
+  }

@@ -1,0 +1,51 @@
+body{
+  background-image: url('../../assets/images/backgroundhome.jpg')
+}
+.example h4 {
+    margin-top: 15px !important;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 650;
+    font-size: 27px;
+    font-family: "Inter", sans-serif;
+  }
+
+  .iconss{
+    display: flex;
+    justify-content: space-between;    
+  }
+    
+
+.example img {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 6px;
+    width: 13%;
+    height: 65px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-image: url('../../assets/images/backgroundhome.jpg');
+    }
+  
+    .example h4 {
+      font-size: 18px;
+      margin-left: -4px !important;
+    }
+  
+    .example img {
+      width: 26%; /* Adjust image width for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      margin-right: 10px; /* Remove margin between img and h4 */
+    }
+  
+    .iconss {
+      display: flex;
+      justify-content: space-around;
+      width: 38%; /* Adjust the width of .iconss for smaller screens */
+      margin: 0 auto; /* Center .iconss horizontally */
+    }
+  }
