@@ -4,6 +4,8 @@ import { Container,Row,Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 // import what1 from "../assets/images/what1.JPG";
+import who1 from "../assets/images/Who1.JPG";
+import who2 from "../assets/images/who2.jpg";
 import carousel1 from "../assets/images/carousel1.JPG";
 import carousel2 from "../assets/images/carousel2.jpg";
 import carousel3 from "../assets/images/carousel3.jpg"
@@ -34,10 +36,10 @@ const Home = () => {
         itemId={1}
         alt='...'
         src={carousel1}
-            style={{  height: '510px' , borderRadius:'0' , objectFit:'cover' }}
+            style={{  height: '600px' , borderRadius:'0' , objectFit:'cover' }}
       >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        {/* <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
       </MDBCarouselItem>
 
       <MDBCarouselItem
@@ -45,10 +47,10 @@ const Home = () => {
         itemId={2}
         src={carousel2}
         alt='...'
-        style={{height: '510px' , borderRadius:'0' , objectFit:'cover'}}
+        style={{height: '600px' , borderRadius:'0' , objectFit:'cover'}}
       >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        {/* <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
       </MDBCarouselItem>
 
       <MDBCarouselItem
@@ -56,10 +58,10 @@ const Home = () => {
         itemId={3}
         src={carousel3}
         alt='...'
-        style={{ height: '510px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        style={{ height: '600px' , borderRadius:'0' , objectFit:'cover', paddingTop: '1px' ,paddingBottom: '1px'}}
+       >
+      {/*   <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
       </MDBCarouselItem>
 
       <MDBCarouselItem
@@ -67,10 +69,10 @@ const Home = () => {
         itemId={4}
         src={carousel4}
         alt='...'
-        style={{  height: '510px' , borderRadius:'0' , objectFit:'cover'}}
+        style={{  height: '600px' , borderRadius:'0' , objectFit:'cover'}}
       >
-        <h5>Fourth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        {/* <h5>Fourth slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
       </MDBCarouselItem>
 
       <MDBCarouselItem
@@ -78,10 +80,10 @@ const Home = () => {
         itemId={5}
         src={carousel5}
         alt='...'
-        style={{ height: '510px' , borderRadius:'0' , objectFit:'cover'}}
+        style={{ height: '600px' , borderRadius:'0' , objectFit:'cover'}}
       >
-        <h5>Fifth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        {/* <h5>Fifth slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
       </MDBCarouselItem>
     </MDBCarousel>
     
@@ -96,7 +98,7 @@ const Home = () => {
         className='w-100 d-block'
         itemId={1}
         alt='...'
-        src={carousel1}
+        src={who1}
             style={{  height: '390px' , borderRadius:'0' , objectFit:'cover' }}
       >
         
@@ -105,12 +107,12 @@ const Home = () => {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={2}
-        src={carousel2}
+        src={who2}
         alt='...'
         style={{height: '390px' , borderRadius:'0' , objectFit:'cover'}}
       >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        {/* <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
       </MDBCarouselItem>
 
       <MDBCarouselItem
@@ -120,8 +122,8 @@ const Home = () => {
         alt='...'
         style={{ height: '390px' , borderRadius:'0' , objectFit:'cover'}}
       >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        {/* <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
       </MDBCarouselItem>
 
       <MDBCarouselItem
@@ -131,8 +133,8 @@ const Home = () => {
         alt='...'
         style={{  height: '390px' , borderRadius:'0' , objectFit:'cover'}}
       >
-        <h5>Fourth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        {/* <h5>Fourth slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
       </MDBCarouselItem>
 
       <MDBCarouselItem
@@ -142,8 +144,8 @@ const Home = () => {
         alt='...'
         style={{ height: '410px' , borderRadius:'0' , objectFit:'cover'}}
       >
-        <h5>Fifth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        {/* <h5>Fifth slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
       </MDBCarouselItem>
     </MDBCarousel>
         </Col>
