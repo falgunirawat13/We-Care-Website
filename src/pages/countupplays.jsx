@@ -18,7 +18,7 @@ function PlaysAnimation() {
 
   return (
     <div>
-      <CountUp end={20} duration={2} useEasing={true} separator="," prefix="" style={countingStyle} />
+      <CountUp end={60} duration={2} useEasing={true} separator="," prefix="" style={countingStyle} />
     </div>
   );
 }

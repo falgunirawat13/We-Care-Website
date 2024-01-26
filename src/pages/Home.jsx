@@ -253,188 +253,45 @@ const Home = () => {
       </Col>     
       <Col lg='4' md='6' sm='12' style={{marginBottom:'3%'}}>
       <Card className='cardcamp'  style={{ width: '100%'}}>
-      {/* <Card.Img className='cardi' variant="top" src={card1} /> */}
-      <MDBCarousel >
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={1}
-        alt='...'
-        src={card1}
-            style={{  height: '250px' , borderRadius:'0' , objectFit:'cover' }}
-      >
-        
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={2}
-        src={carousel2}
-        alt='...'
-        style={{height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-       
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={3}
-        src={carousel3}
-        alt='...'
-        style={{ height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-        
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block '
-        itemId={4}
-        src={carousel4}
-        alt='...'
-        style={{  height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-       
-      </MDBCarouselItem>
-    </MDBCarousel>
-      <Card.Body>
-        <Card.Title>  Bachpanshala: Nurturing Bright Futures with Joyful Learning</Card.Title>
+      <Card.Img className='cardi' variant="top" src={card1} />
+      <Card.Body className='text-center d-flex flex-column align-items-center'>
+        <Card.Title className='text-center'>  BACHPANSHALA</Card.Title>
         <Card.Text  className='Content5'>
-      At the heart of We Care's mission lies our major initiative, Bachpanshala—a transformative journey that began with a handful of eager minds and a vision to break the cycle of limited opportunities. Established to provide education to underprivileged children in slums, Bachpanshala has evolved into a vibrant community of learning, growth, and joy.Together, we are sowing the seeds of change and nurturing the potential of each child, one joyful moment at a time.
-
+        Welcome to Bachpanshala, a transformative initiative pioneered by the NGO WeCare. Bachpanshala provides free education to underprivileged children. Beyond traditional academics, our holistic approach includes engaging sports activities and vibrant celebrations of festivals, fostering a dynamic learning environment. With a commitment to nurturing young minds, we blend study and play, ensuring a well-rounded educational experience, where every child's potential is embraced and celebrated.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary" className='mt-auto'>Explore More</Button>
       </Card.Body>
     </Card>
         </Col>   
         <Col lg='4'  md='6' sm='12'>
       <Card className='cardcamp' style={{ width: '100%' }}>
-      {/* <Card.Img className='cardi' variant="top" src={card22} /> */}
-      <MDBCarousel >
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={1}
-        alt='...'
-        src={card22}
-            style={{  height: '250px' , borderRadius:'0' , objectFit:'cover' }}
-      >
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={2}
-        src={carousel2}
-        alt='...'
-        style={{height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-      
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={3}
-        src={carousel3}
-        alt='...'
-        style={{ height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-        
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block '
-        itemId={4}
-        src={carousel4}
-        alt='...'
-        style={{  height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-     
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={5}
-        src={carousel5}
-        alt='...'
-        style={{ height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-       
-      </MDBCarouselItem>
-    </MDBCarousel>
-      <Card.Body>
-        <Card.Title>Charity Cup: Kicking Goals for a Cause</Card.Title>
+      <Card.Img className='cardi' variant="top" src={card22} />
+  
+      <Card.Body className='text-center d-flex flex-column align-items-center'>
+        <Card.Title className='text-center'>MENSTRUAL HYGIENE</Card.Title>
         <Card.Text  className='Content5'>
 
-Welcome to Charity Cup, We Care's fundraising initiative dedicated
- to making a positive impact. This football tournament isn't just about goals on the field;
-  it's about scoring for the well-being of underprivileged kids and societies. 
-  Every penny raised is channeled towards the welfare of those in need. 
-  Join us in turning the spirit of competition into a force for good and positive impact. Together,
-   let's play for a cause and make a lasting and effective difference in the lives of the less fortunate and build brighter futures.
+        One of the most important initiatives by WeCare, the Menstrual Hygiene Initiative empowers women in villages lacking awareness and essential facilities. In areas with a higher female population, we've organized awareness camps, educating and emphasizing the significance of proper menstrual hygiene. By reaching out to these communities, we aim to break taboos and ensure women have access to the knowledge and resources necessary for maintaining their health with dignity.
+
+
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Explore More</Button>
       </Card.Body>
     </Card>
         </Col>   
         <Col lg='4'md='6' sm='12'>
       <Card className='cardcamp' style={{ width: '100%' }}>
-      {/* <Card.Img className='cardi' variant="top" src={card33} /> */}
-      <MDBCarousel>
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={1}
-        alt='...'
-        src={card33}
-            style={{  height: '250px' , borderRadius:'0' , objectFit:'cover' }}
-      >
-    
-      </MDBCarouselItem>
+      <Card.Img className='cardi' variant="top" src={card33} />
+   
+      <Card.Body className='text-center d-flex flex-column align-items-center'>
+        <Card.Title className='text-center'>PROJECT BICHHONA</Card.Title>
+        <Card.Text  className='Content5'>
 
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={2}
-        src={carousel2}
-        alt='...'
-        style={{height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-        
-      </MDBCarouselItem>
+        Project Bichona, a compassionate initiative driven by WeCare, is dedicated to championing the cause of Animal Rights. Our focus is on alleviating the struggles faced by street dogs, who often endure harsh conditions without proper warmth and nourishment. In our commitment to their well-being, we actively provide blankets through this project. This ensures these resilient animals not only receive physical comfort but also the care and support necessary for a significantly improved quality of life.
 
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={3}
-        src={carousel3}
-        alt='...'
-        style={{ height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
 
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block '
-        itemId={4}
-        src={carousel4}
-        alt='...'
-        style={{  height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-    
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={5}
-        src={carousel5}
-        alt='...'
-        style={{ height: '250px' , borderRadius:'0' , objectFit:'cover'}}
-      >
-      
-      </MDBCarouselItem>
-    </MDBCarousel>
-      <Card.Body>
-        <Card.Title>Road Safety Initiative: Building a Safer Tomorrow
-</Card.Title>
-<Card.Text  className='Content5'>       
-In the realm of safety concerns, We Care takes a proactive stance on road safety—a major priority. Through dynamic initiatives like street plays, rallies, acts, and on-ground awareness camps, we champion the cause of safer streets. Join us in promoting responsible road behavior and ensuring a secure future for all , and fostering community safety together.
- Together, let's drive change and make our roads much more safer, one awareness campaign at a time.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Explore More</Button>
       </Card.Body>
     </Card>
         </Col>   
@@ -461,8 +318,17 @@ In the realm of safety concerns, We Care takes a proactive stance on road safety
           src={growingtree} alt='growingtree' style={{ width: '80%', height: '68%' }}
         />
         <TreesPlantedAnimation/>
-        <h3 class='main-head1'>TREES PLANTED</h3>
+        <h3 class='main-head1'>CLASSES TAUGHT</h3>
         
+      </Col>
+      <Col  className='animsection text-center impactCard' style={{ borderRadius:'15px' }}>
+        <img
+          className="move-up-image "  // Added mb-3 class for margin-bottom
+          src={streetplays} alt="streetplay" style={{ width: '95%', height: '80%', marginBottom:'-20px',marginTop:'-21px' }}
+        />
+          <PlaysAnimation/>
+        <h3 class='main-head1'>STUDENTS</h3>
+      
       </Col>
       <Col  className='animsection text-center impactCard' style={{ borderRadius:'15px' }}>
         <img
@@ -482,15 +348,7 @@ In the realm of safety concerns, We Care takes a proactive stance on road safety
         <h3 class='main-head1'>SCHOOLS</h3>
         
       </Col>
-      <Col  className='animsection text-center impactCard' style={{ borderRadius:'15px' }}>
-        <img
-          className="move-up-image "  // Added mb-3 class for margin-bottom
-          src={streetplays} alt="streetplay" style={{ width: '95%', height: '80%', marginBottom:'-20px',marginTop:'-21px' }}
-        />
-          <PlaysAnimation/>
-        <h3 class='main-head1'>STREET PLAYS</h3>
       
-      </Col>
     </Row>
   </Container>
 </section>
@@ -518,6 +376,12 @@ In the realm of safety concerns, We Care takes a proactive stance on road safety
         QUESTIONS ?
       </h1>      
       </Col>                 
+      </Row>
+      <Row>
+        <Row>
+          <br/>
+
+        </Row>
       </Row>
       <Row>
       <Col lg='6'>

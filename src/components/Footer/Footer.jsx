@@ -14,16 +14,14 @@ export default function App() {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon className='dark-text' color='secondary' fab icon='facebook-f' />
-          </a>
-          <a href='' className='me-4 text-reset'>
+         
+          <a href='https://www.instagram.com/wecareorgg/' className='me-4 text-reset'>
             <MDBIcon className='dark-text' color='secondary' fab icon='instagram' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/company/wecare-me/' className='me-4 text-reset'>
             <MDBIcon className='dark-text' color='secondary' fab icon='linkedin' />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.youtube.com/channel/UChatyDOKLvb6rVoMxJkYg6g' className='me-4 text-reset'>
             <MDBIcon className='dark-text' color='secondary' fab icon='youtube' />
           </a>
         </div>

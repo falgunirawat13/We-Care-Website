@@ -69,7 +69,11 @@ body {
   
 }
 
-  
+.Content5{
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+}
 
 .main-head{
     font-family: "Inter", sans-serif;

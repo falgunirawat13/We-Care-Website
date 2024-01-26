@@ -14,10 +14,10 @@ const Starter = () => {
       </div>
               
       <div className='iconss'>
-    <SocialIcon network="facebook" url="" className='me-2' />
-    <SocialIcon network="instagram" url="" className='me-2' />
-    <SocialIcon network="linkedin" url="" className='me-2' />
-    <SocialIcon network="youtube" url="" className='me-2' />
+    {/* <SocialIcon network="facebook" url="" className='me-2' /> */}
+    <SocialIcon network="instagram" url="https://www.instagram.com/wecareorgg/" className='me-2' />
+    <SocialIcon network="linkedin" url="https://www.linkedin.com/company/wecare-me/" className='me-2' />
+    <SocialIcon network="youtube" url="https://www.youtube.com/channel/UChatyDOKLvb6rVoMxJkYg6g" className='me-2' />
     </div>
     </div>
   )
