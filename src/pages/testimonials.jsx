@@ -2,6 +2,13 @@ import React from "react";
 import { MDBCard, MDBCardBody, MDBContainer, MDBIcon } from "mdb-react-ui-kit";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
 import { Carousel } from "react-responsive-carousel";
+import Ananya from "../assets/images/Ananya.jpg";
+import Ateeb from "../assets/images/Ateeb.jpg";
+import Vedika from "../assets/images/Vedika.jpg";
+import Vipul from "../assets/images/Vipul.jpg";
+import Samarth from "../assets/images/Samarth.jpg";
+import anany from "../assets/images/anany.jpg";
+
 
 export default function App() {
   return (
@@ -18,11 +25,11 @@ export default function App() {
             <MDBCardBody className="py-4 mt-2 text-center">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  src={Ateeb}
                   className="rounded-circle shadow-1-strong"
                   style={{
-                    width: '100px',  // Set the width and height to your desired size
-                    height: '100px',
+                    width: '120px',  // Set the width and height to your desired size
+                    height: '120px',
                     borderRadius: '50%', // Create a circular shape
                   }}
                   alt=""
@@ -40,6 +47,7 @@ export default function App() {
                 source of pride, knowing that our collective efforts have left a
                 lasting, positive mark on the lives of those we aimed to
                 support.
+                <MDBIcon fas icon="quote-right" className="pe-2" />
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -50,11 +58,11 @@ export default function App() {
             <MDBCardBody className="py-4 mt-2 text-center">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  src={Vedika}
                   className="rounded-circle shadow-1-strong"
                   style={{
-                    width: '100px',  // Set the width and height to your desired size
-                    height: '100px',
+                    width: '120px',  // Set the width and height to your desired size
+                    height: '120px',
                     borderRadius: '50%', // Create a circular shape
                   }}
                   alt=""
@@ -70,7 +78,8 @@ export default function App() {
                 to transform lives, and being able to contribute to these
                 children's journey towards success brings me immense joy. Even a
                 small impact on their lives would mean the world to me, and I am
-                committed to making a positive difference in their futures.
+                committed to making a positive difference in their futures. 
+                <MDBIcon fas icon="quote-right" className="pe-2" />
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -81,11 +90,11 @@ export default function App() {
             <MDBCardBody className="py-4 mt-2 text-center">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  src={Ananya}
                   className="rounded-circle shadow-1-strong"
                   style={{
-                    width: '100px',  // Set the width and height to your desired size
-                    height: '100px',
+                    width: '120px',  // Set the width and height to your desired size
+                    height: '120px',
                     borderRadius: '50%', // Create a circular shape
                   }}
                   alt=""
@@ -104,7 +113,7 @@ export default function App() {
                 environment and collaborative ethos within the NGO make the
                 teaching journey here incredibly fulfilling. I cherish the
                 opportunity to contribute to the educational empowerment of
-                these resilient individuals.
+                these resilient individuals.    <MDBIcon fas icon="quote-right" className="pe-2" />
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -115,11 +124,11 @@ export default function App() {
             <MDBCardBody className="py-4 mt-2 text-center">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  src={Samarth}
                   className="rounded-circle shadow-1-strong"
                   style={{
-                    width: '100px',  // Set the width and height to your desired size
-                    height: '100px',
+                    width: '120px',  // Set the width and height to your desired size
+                    height: '120px',
                     borderRadius: '50%', // Create a circular shape
                   }}
                   alt=""
@@ -138,6 +147,7 @@ export default function App() {
                 uplifting those in need. Grateful for the enriching experiences,
                 I carry forward the lessons learned, cherishing the shared
                 moments of growth, laughter, and progress.
+                <MDBIcon fas icon="quote-right" className="pe-2" />
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -148,11 +158,11 @@ export default function App() {
             <MDBCardBody className="py-4 mt-2 text-center">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  src={anany}
                   className="rounded-circle shadow-1-strong"
                   style={{
-                    width: '100px',  // Set the width and height to your desired size
-                    height: '100px',
+                    width: '120px',  // Set the width and height to your desired size
+                    height: '120px',
                     borderRadius: '50%', // Create a circular shape
                   }}
                   alt=""
@@ -170,6 +180,7 @@ export default function App() {
                 growth. 'We Care' has been a catalyst in shaping a better
                 version of myself, providing immense satisfaction and purpose in
                 my journey.
+                <MDBIcon fas icon="quote-right" className="pe-2" />
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -180,12 +191,12 @@ export default function App() {
             <MDBCardBody className="py-4 mt-2 text-center">
               <div className="d-flex justify-content-center mb-4">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  src={Vipul}
                   className="rounded-circle shadow-1-strong"
                   style={{
-                    width: '100px',  // Set the width and height to your desired size
-                    height: '100px',
-                    borderRadius: '50%', // Create a circular shape
+                    width: '120px',  // Set the width and height to your desired size
+                    height: '120px',
+                    borderRadius: '0', // Create a circular shape
                   }}
                   alt=""
                 />
@@ -202,6 +213,7 @@ export default function App() {
                 developing several skills as i went through events that are
                 organised, focusing the children. We work as a team, train
                 ourselves to guide the children to lead the right path in life.
+                <MDBIcon fas icon="quote-right" className="pe-2" />
               </p>
             </MDBCardBody>
           </MDBCard>

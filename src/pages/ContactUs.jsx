@@ -1,6 +1,7 @@
 import React , {useRef} from 'react';
 import { MDBInput, MDBBtn, MDBValidation, MDBTextArea } from 'mdb-react-ui-kit';
 import emailjs from '@emailjs/browser'
+import img from "../assets/images/contactus.jpg";
 // const btnHead = {
 //   marginBottom: '5px',
 // };
@@ -24,10 +25,11 @@ const ContactUs = () => {
       <div className="row">
         <div className="col-md-6" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
           <h1>Get In Touch</h1>
+          <img src={img} alt="" style={{width: '560px' , height: '390px' ,borderRadius: '0', marginTop:"10px", marginBottom:"28px" , marginLeft:"-10px"}}/>
         </div>
         <div className="col-md-6" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
           <MDBValidation noValidate id='form' ref={formRef} onSubmit={sendEmail}>
-            <h2>Contact us</h2>
+            <h1>Contact us</h1><br/>
 
             <MDBInput name='name' required label='Name' v-model='name' wrapperClass='mb-4' />
 

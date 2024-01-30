@@ -1,6 +1,6 @@
 //             <h3>Vice President - Azhan Ahmed</h3>
 //             <p>
-//             He is a dedicated and intellectual individual who personifies the word 'dedication.' Azhan is not only a skilled speaker but also a compassionate teacher who is always eager to share his knowledge with others. He has a wealth of ideas for bringing about positive change and is constantly thinking of ways to revolutionize the world around us. Azhan is the voice of "We Care" and works tirelessly to make a difference in the lives of those around him. 
+//             He is a dedicated and intellectual individual who personifies the word 'dedication.' Azhan is not only a skilled speaker but also a compassionate teacher who is always eager to share his knowledge with others. He has a wealth of ideas for bringing about positive change and is constantly thinking of ways to revolutionize the world around us. Azhan is the voice of "We Care" and works tirelessly to make a difference in the lives of those around him.
 //             He is truly an inspiration to us all, and we are proud to have him as our Vice President.
 //             </p>
 //           </Col>
@@ -28,11 +28,11 @@
 //     </section>
 //     <section>
 //       <Container>
-//         <Row>         
+//         <Row>
 //           <Col lg='8'>
 //           <h3>Treasurer - Rehman Aziz</h3>
 //           <p>
-//           Our Treasurer, Rehman. He is the co-founder of "We Care" and the treasure himself. Rehman is the visionary head and backbone of our organization, and his selfless contributions have been instrumental in our success. He is a multi-tasker who wears many hats and effortlessly manages various responsibilities. Rehman is the guardian of "Bachpanshala," 
+//           Our Treasurer, Rehman. He is the co-founder of "We Care" and the treasure himself. Rehman is the visionary head and backbone of our organization, and his selfless contributions have been instrumental in our success. He is a multi-tasker who wears many hats and effortlessly manages various responsibilities. Rehman is the guardian of "Bachpanshala,"
 //           and his dedication to the cause is unwavering. His sweet demeanor and kind heart make him a pleasure to work with, and we are fortunate to have him as our Treasurer.
 //           </p>
 //           </Col>
@@ -51,7 +51,7 @@
 //           <Col>
 //           <h3>Volunteers Coordinator - Satnam Singh</h3>
 //           <p>
-//           Our Volunteer Coordinator, Satnam. Though he is the youngest member of our team, age is just a number for him. Satnam never fails to amaze us with his organizing and sense of things skills. He possesses great managerial powers, and we can always rely on him to complete the tasks given to him. Satnam is an asset to our team, and his contributions have been invaluable. 
+//           Our Volunteer Coordinator, Satnam. Though he is the youngest member of our team, age is just a number for him. Satnam never fails to amaze us with his organizing and sense of things skills. He possesses great managerial powers, and we can always rely on him to complete the tasks given to him. Satnam is an asset to our team, and his contributions have been invaluable.
 //           We appreciate his dedication and hard work, and we are fortunate to have him as our Volunteer Coordinator.
 //           </p>
 //           </Col>
@@ -60,11 +60,11 @@
 //     </section>
 //     <section>
 //       <Container>
-//         <Row>          
+//         <Row>
 //           <Col lg='8'>
 //             <h3>Brainstorming Chair - Mohmmad Zaid</h3>
 //             <p>
-//             Our Brainstorming Chair Head, Zaid. Just as the position suggests, he lives by being the same and is a true brainstormer. Zaid is the most sincere and time-abided person you will ever meet, and his leadership qualities are exceptional. He has a unique ability to turn a scratch to a resourceful idea, 
+//             Our Brainstorming Chair Head, Zaid. Just as the position suggests, he lives by being the same and is a true brainstormer. Zaid is the most sincere and time-abided person you will ever meet, and his leadership qualities are exceptional. He has a unique ability to turn a scratch to a resourceful idea,
 //             Zaid is an outstanding leader and a valuable member of our team, and we are lucky to have him as our Brainstorming Chair Head.
 //             </p>
 //           </Col>
@@ -94,7 +94,7 @@
 //     </section>
 //     <section>
 //       <Container>
-//         <Row>        
+//         <Row>
 //           <Col lg='8'>
 //           <h3>
 //             Communication Chair - Shivansh Yadav
@@ -118,10 +118,10 @@
 //           </Col>
 //           <Col>
 //           <h3>
-//             Human Resource - Sanskriti Verma & S Saranya 
+//             Human Resource - Sanskriti Verma & S Saranya
 //           </h3>
 //           <p>
-//           Our HR team, Saranya and Sanskriti. They are the perfect duo one could ask for and the perfect examples of diligence. From retrenchment to orientation, they treat each employee as their own and make sure that they receive the utmost care and attention. Their energy and enthusiasm are infectious, and we are lucky to have them as a part of our team. 
+//           Our HR team, Saranya and Sanskriti. They are the perfect duo one could ask for and the perfect examples of diligence. From retrenchment to orientation, they treat each employee as their own and make sure that they receive the utmost care and attention. Their energy and enthusiasm are infectious, and we are lucky to have them as a part of our team.
 //           Saranya and Sanskriti are invaluable members of our organization, and we appreciate their contributions.
 //           </p>
 //           </Col>
@@ -133,9 +133,9 @@
 //   )
 // }
 
-import React from 'react';
-import { Container,Row,Col } from 'react-bootstrap';
-import '../styles/Ourteam.css';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "../styles/Ourteam.css";
 import {
   MDBCard,
   MDBCardTitle,
@@ -143,42 +143,58 @@ import {
   MDBCardBody,
   MDBCardImage,
   MDBRow,
-  MDBCol
-} from 'mdb-react-ui-kit';
+  MDBCol,
+} from "mdb-react-ui-kit";
 
 export default function Ourteam() {
   return (
     <>
-    <section className='OurTeam'>
-   <Container>
-         <Row>
-         <Col lg='12' className='text-center'>
-       <h1 class="main-head" style={{marginTop:'2%',marginBottom:"2%"}}>
-         MEET OUR TEAM
-       </h1>
-           </Col>
-         </Row>
-         </Container>
-         </section>
-<section>
-    <MDBCard style={{ maxWidth: '100%' }}>
-      <MDBRow className='g-0'>
-        <MDBCol lg='4'>
-          <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' alt='...' className='img1'/>
-        </MDBCol>
-        <MDBCol lg='8'>
-          <MDBCardBody>
-            <MDBCardTitle> <h3>President - Mohd Areeb Khan</h3></MDBCardTitle>
-            <MDBCardText>
-            Our team's President, Areeb. He founded "We Care," a little place that he created from scratch that resonates purity in this world. Areeb is an exemplary leader and an inspiration to us all. He embodies the qualities of integrity, dedication, and hard work, and his team looks up to him. Areeb leads by example and consistently demonstrates that change starts with an individual's actions. 
-           We are fortunate to have him as our President, and we strive to emulate his qualities in all that we do.
-
-            </MDBCardText>
-            </MDBCardBody>
-        </MDBCol>
-      </MDBRow>
-    </MDBCard>
-    </section>
+      <section className="OurTeam">
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+              <h1
+                class="main-head"
+                style={{ marginTop: "2%", marginBottom: "2%" }}
+              >
+                MEET OUR TEAM
+              </h1>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section>
+        <MDBCard style={{ maxWidth: "100%" }}>
+          <MDBRow className="g-0">
+            <MDBCol lg="4">
+              <MDBCardImage
+                src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp"
+                alt="..."
+                className="img1"
+              />
+            </MDBCol>
+            <MDBCol lg="8">
+              <MDBCardBody>
+                <MDBCardTitle>
+                  {" "}
+                  <h3>President - Mohd Areeb Khan</h3>
+                </MDBCardTitle>
+                <MDBCardText>
+                  Our team's President, Areeb. He founded "We Care," a little
+                  place that he created from scratch that resonates purity in
+                  this world. Areeb is an exemplary leader and an inspiration to
+                  us all. He embodies the qualities of integrity, dedication,
+                  and hard work, and his team looks up to him. Areeb leads by
+                  example and consistently demonstrates that change starts with
+                  an individual's actions. We are fortunate to have him as our
+                  President, and we strive to emulate his qualities
+                  in all that we do.
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCol>
+          </MDBRow>
+        </MDBCard>
+      </section>
     </>
   );
 }

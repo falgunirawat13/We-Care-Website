@@ -3,14 +3,11 @@ import "../styles/home.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-// import what1 from "../assets/images/what1.JPG";
-import who1 from "../assets/images/Who1.JPG";
-import who2 from "../assets/images/who2.jpg";
-import carousel1 from "../assets/images/carousel1.JPG";
 import carousel2 from "../assets/images/carousel2.jpg";
-import carousel3 from "../assets/images/carousel3.jpg";
-import carousel4 from "../assets/images/carousel4.JPG";
-import carousel5 from "../assets/images/carousel5.JPG";
+import who1 from "../assets/images/whoweare1.JPG";
+import what1 from "../assets/images/whatwedo1.JPG";
+import what2 from "../assets/images/whatwedo2.JPG";
+import what3 from "../assets/images/whatwedo3.jpg";
 import card11 from "../assets/images/bachpanshala.jpg";
 import card22 from "../assets/images/menstrual.jpg";
 import card33 from "../assets/images/Bichona.jpg";
@@ -43,7 +40,7 @@ const Home = () => {
               className="w-100 d-block"
               itemId={1}
               alt="..."
-              src={carousel1}
+              src={carousel2}
               style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
             >
               {/* <h5>First slide label</h5>
@@ -64,7 +61,7 @@ const Home = () => {
             <MDBCarouselItem
               className="w-100 d-block"
               itemId={3}
-              src={carousel3}
+              src={carousel2}
               alt="..."
               style={{
                 height: "600px",
@@ -81,7 +78,7 @@ const Home = () => {
             <MDBCarouselItem
               className="w-100 d-block "
               itemId={4}
-              src={carousel4}
+              src={carousel2}
               alt="..."
               style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
             >
@@ -92,7 +89,7 @@ const Home = () => {
             <MDBCarouselItem
               className="w-100 d-block"
               itemId={5}
-              src={carousel5}
+              src={carousel2}
               alt="..."
               style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
             >
@@ -107,10 +104,11 @@ const Home = () => {
           <Row>
             <Col
               lg="6"
+              md="12"
               className="text-center"
-              style={{ marginLeft: "-40px", marginRight: "20px" }}
+              style={{ marginLeft: "2px", marginRight: "1px" }}
             >
-              <MDBCarousel showIndicators fade>
+              <MDBCarousel showIndicators>
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={1}
@@ -122,11 +120,10 @@ const Home = () => {
                     objectFit: "cover",
                   }}
                 ></MDBCarouselItem>
-
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={2}
-                  src={who2}
+                  src={what2}
                   alt="..."
                   style={{
                     height: "390px",
@@ -141,7 +138,7 @@ const Home = () => {
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={3}
-                  src={carousel3}
+                  src={what3}
                   alt="..."
                   style={{
                     height: "390px",
@@ -156,7 +153,7 @@ const Home = () => {
                 <MDBCarouselItem
                   className="w-100 d-block "
                   itemId={4}
-                  src={carousel4}
+                  src={what2}
                   alt="..."
                   style={{
                     height: "390px",
@@ -170,30 +167,26 @@ const Home = () => {
 
                 <MDBCarouselItem
                   className="w-100 d-block"
-                  itemId={5}
-                  src={carousel5}
+                  itemId={1}
                   alt="..."
+                  src={who1}
                   style={{
-                    height: "410px",
+                    height: "390px",
                     borderRadius: "0",
                     objectFit: "cover",
                   }}
-                >
-                  {/* <h5>Fifth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-                </MDBCarouselItem>
+                ></MDBCarouselItem>
               </MDBCarousel>
             </Col>
-            <Col lg="6" className="Content1">
+            <Col lg="6" md="12" className="Content1">
               <div>
                 <div className="aboutheading">
                   <a href="/AboutUs">
                     <h4 style={{ color: "black" }}>About Us</h4>
                   </a>
                 </div>
-                <h1 class="main-head">WHO WE ARE</h1>
+                <h1 className="main-head">WHO WE ARE</h1>
                 <p>
-                  {" "}
                   Founded on the belief that small actions can lead to
                   significant change, WeCare is just a group of teenagers trying
                   to make a difference in the lives of the underprivileged
@@ -206,14 +199,15 @@ const Home = () => {
                   <br />
                   At the heart of our mission is Bachpanshala, a project that
                   bridges the gap between dreams and reality, and together with
-                  your support, we aim to make a lasting impact on the lives
-                  of those we serve.
+                  your support, we aim to make a lasting impact on the lives of
+                  those we serve.
                 </p>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
+
       <section className="What">
         <Container>
           <Row>
@@ -239,12 +233,12 @@ const Home = () => {
               </div>
             </Col>
             <Col lg="6" style={{ marginLeft: "25px" }}>
-              <MDBCarousel>
+              <MDBCarousel showIndicators>
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={1}
                   alt="..."
-                  src={card33}
+                  src={what1}
                   style={{
                     height: "390px",
                     borderRadius: "0",
@@ -255,7 +249,7 @@ const Home = () => {
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={2}
-                  src={carousel2}
+                  src={what2}
                   alt="..."
                   style={{
                     height: "390px",
@@ -267,7 +261,7 @@ const Home = () => {
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={3}
-                  src={carousel3}
+                  src={what3}
                   alt="..."
                   style={{
                     height: "390px",
@@ -279,7 +273,7 @@ const Home = () => {
                 <MDBCarouselItem
                   className="w-100 d-block "
                   itemId={4}
-                  src={carousel4}
+                  src={what1}
                   alt="..."
                   style={{
                     height: "390px",
@@ -291,7 +285,7 @@ const Home = () => {
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={5}
-                  src={carousel5}
+                  src={what1}
                   alt="..."
                   style={{
                     height: "390px",
@@ -429,12 +423,12 @@ const Home = () => {
                         The WeCare Charity Cup, an annual initiative by our
                         dedicated NGO, transcends sports. More than a football
                         tournament, it symbolizes collective compassion and
-                        impactful change. With every goal scored, we fundraise
-                        for crucial causes, championing the spirit of giving.
-                        Participants, sponsors, and supporters unite work
-                        collectively to make a lasting difference in the lives
-                        of those in need. Participants, sponsors, and supporters
-                        unite work collectively to make a lasting difference.
+                        impactful change. Undoubtedly, this stands out as the
+                        most dynamic and captivating event of the year. With
+                        every goal scored, we fundraise for crucial causes,
+                        championing the spirit of giving. Participants,
+                        sponsors, and supporters unite work collectively to make
+                        a lasting difference in the lives of those in need.
                       </Card.Text>
                       <Button variant="primary">Explore More</Button>
                     </Card.Body>
@@ -463,8 +457,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className="impact"
-       style={{ background: " #c7fbff" }}>
+      <section className="impact" style={{ background: " #c7fbff" }}>
         <Container>
           <Row>
             <Col lg="12" className="text-center">

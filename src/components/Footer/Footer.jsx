@@ -115,10 +115,10 @@ export default function App() {
                 wecare7920@gmail.com
               </p>
               <p>
-                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 91 21 234 567 88
+                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 91 830 559 6309
               </p>
               <p>
-                <MDBIcon color='secondary' icon='print' className='me-3' /> + 91 12 234 567 89
+                <MDBIcon color='secondary' icon='print' className='me-3' /> + 91 830 559 6309
               </p>
             </MDBCol>
           </MDBRow>
