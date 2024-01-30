@@ -192,44 +192,45 @@ const Home = () => {
         </Container>
       </section>
       <section className="What">
-        <Container>
-          <Row>
-            <Col lg="6" style={{ marginLeft: "-42px" }}>
-              <div className="Content2">
-                <div className="Main2">
-                  <h1 class="main-head">WHAT WE DO? </h1>
-                  <br />
-                  <p>
-                    At WeCare, we shift compassion into concrete change. We're
-                    dedicated to providing quality education, ensuring essential
-                    healthcare access, supporting communities, spreading
-                    awareness, and advocating for vital causes.
-                    <br />
-                    <br />
-                    Our Bachpanshala is a project that shrinks the gap between
-                    dreams and reality by teaching underprivileged children. We
-                    also offer volunteering opportunities, and our collective
-                    efforts are focused on turning dreams into reality and
-                    fostering positive change in the lives of those we serve.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            <Col lg="6" style={{ marginLeft: "25px" }}>
-              <MDBCarousel showIndicators>
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={1}
-                  alt="..."
-                  src={what1}
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
+  <Container>
+    <Row>
+      <Col lg="6" md="12" style={{ marginLeft: "-42px" }}>
+        <div className="Content2">
+          <div className="Main2">
+            <h1 className="main-head">WHAT WE DO? </h1>
+            <br />
+            <p>
+              At WeCare, we shift compassion into concrete change. We're
+              dedicated to providing quality education, ensuring essential
+              healthcare access, supporting communities, spreading awareness,
+              and advocating for vital causes.
+              <br />
+              <br />
+              Our Bachpanshala is a project that shrinks the gap between
+              dreams and reality by teaching underprivileged children. We also
+              offer volunteering opportunities, and our collective efforts are
+              focused on turning dreams into reality and fostering positive
+              change in the lives of those we serve.
+            </p>
+          </div>
+        </div>
+      </Col>
+     
+      <Col lg="6" md="12" style={{ marginLeft: "1px" }}>
+        <MDBCarousel showIndicators>
+          <MDBCarouselItem
+            className="w-100 d-block"
+            itemId={1}
+            alt="..."
+            src={what1}
+            style={{
+              height: "390px",
+              borderRadius: "0",
+              objectFit: "cover",
+            }}
+          ></MDBCarouselItem>
+         
+         <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={2}
                   src={what2}
@@ -276,11 +277,13 @@ const Home = () => {
                     objectFit: "cover",
                   }}
                 ></MDBCarouselItem>
-              </MDBCarousel>
-            </Col>
-          </Row>
-        </Container>
+        </MDBCarousel>
+      </Col>
+ 
+    </Row>
+  </Container>
       </section>
+
       <section className="Camp">
         <Container>
           <Row>
@@ -440,7 +443,8 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className="impact" style={{ background: " #c7fbff" }}>
+      <section className="impact" 
+      style={{ background: " #c7fbff" }}>
         <Container>
           <Row>
             <Col lg="12" className="text-center">

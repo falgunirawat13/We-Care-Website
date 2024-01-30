@@ -40,9 +40,31 @@ body {
   .main-head{
     text-align: center;
   }
-  
+}
+
+
+@media (max-width: 767px) {
+  /* Add your styles for smaller screens here */
+  .What {
+    padding: 10px; /* Example: Add padding for smaller screens */
+    margin-left: 2px;
+  }
+
+  .main-head{
+    margin-left: 12px;
+    text-align: center;
+  }
+  .p{
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 15px !important;
+  }
   .Main2 {
     /* Add styles specific to smaller screens */
+    text-align: center;
+    margin-left: 12px;
+  
+    
   }
 }
 
