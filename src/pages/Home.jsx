@@ -102,12 +102,7 @@ const Home = () => {
       <section className="Who">
         <Container>
           <Row>
-            <Col
-              lg="6"
-              md="12"
-              className="text-center"
-              style={{ marginLeft: "2px", marginRight: "1px" }}
-            >
+          <Col lg="6" style={{ marginLeft: "1px" }}>
               <MDBCarousel showIndicators>
                 <MDBCarouselItem
                   className="w-100 d-block"
@@ -120,6 +115,7 @@ const Home = () => {
                     objectFit: "cover",
                   }}
                 ></MDBCarouselItem>
+
                 <MDBCarouselItem
                   className="w-100 d-block"
                   itemId={2}
@@ -130,10 +126,7 @@ const Home = () => {
                     borderRadius: "0",
                     objectFit: "cover",
                   }}
-                >
-                  {/* <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-                </MDBCarouselItem>
+                ></MDBCarouselItem>
 
                 <MDBCarouselItem
                   className="w-100 d-block"
@@ -145,31 +138,25 @@ const Home = () => {
                     borderRadius: "0",
                     objectFit: "cover",
                   }}
-                >
-                  {/* <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-                </MDBCarouselItem>
+                ></MDBCarouselItem>
 
                 <MDBCarouselItem
                   className="w-100 d-block "
                   itemId={4}
-                  src={what2}
+                  src={what1}
                   alt="..."
                   style={{
                     height: "390px",
                     borderRadius: "0",
                     objectFit: "cover",
                   }}
-                >
-                  {/* <h5>Fourth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-                </MDBCarouselItem>
+                ></MDBCarouselItem>
 
                 <MDBCarouselItem
                   className="w-100 d-block"
-                  itemId={1}
+                  itemId={5}
+                  src={what1}
                   alt="..."
-                  src={who1}
                   style={{
                     height: "390px",
                     borderRadius: "0",
@@ -178,36 +165,32 @@ const Home = () => {
                 ></MDBCarouselItem>
               </MDBCarousel>
             </Col>
-            <Col lg="6" md="12" className="Content1">
-              <div>
+            <Col lg="6" style={{ marginLeft: "-2px" }}>
+              <div className="Content1">
+                <div className="Main2">
                 <div className="aboutheading">
-                  <a href="/AboutUs">
-                    <h4 style={{ color: "black" }}>About Us</h4>
-                  </a>
-                </div>
-                <h1 className="main-head">WHO WE ARE</h1>
-                <p>
-                  Founded on the belief that small actions can lead to
-                  significant change, WeCare is just a group of teenagers trying
-                  to make a difference in the lives of the underprivileged
-                  section of society.
-                  <br />
-                  <br />
-                  Our goal is to empower communities, nurture dreams, and create
-                  a world where everyone has the opportunity to thrive.
-                  <br />
-                  <br />
-                  At the heart of our mission is Bachpanshala, a project that
-                  bridges the gap between dreams and reality, and together with
-                  your support, we aim to make a lasting impact on the lives of
-                  those we serve.
-                </p>
+            <a href="/AboutUs">
+              <h4 style={{ color: "black" }}>About Us</h4>
+            </a>
+          </div>
+          <h1 className="main-head">WHO WE ARE</h1>
+          <p>
+            Founded on the belief that small actions can lead to significant change, WeCare is just a group of teenagers trying to make a difference in the lives of the underprivileged section of society.
+            <br />
+            <br />
+            Our goal is to empower communities, nurture dreams, and create a world where everyone has the opportunity to thrive.
+            <br />
+            <br />
+            At the heart of our mission is Bachpanshala, a project that bridges the gap between dreams and reality, and together with your support, we aim to make a lasting impact on the lives of those we serve.
+          </p>
+        </div>
+                
               </div>
             </Col>
+          
           </Row>
         </Container>
       </section>
-
       <section className="What">
         <Container>
           <Row>

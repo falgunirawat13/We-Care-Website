@@ -26,6 +26,28 @@ body {
 }
 
 
+@media (max-width: 767px) {
+  /* Add your styles for smaller screens here */
+  .Who {
+    padding: 10px; /* Example: Add padding for smaller screens */
+  }
+
+  .aboutheading {
+    text-align: center;
+    margin-top: 10px; /* Example: Adjust margin for smaller screens */
+  }
+
+  .main-head{
+    text-align: center;
+  }
+  
+  .Main2 {
+    /* Add styles specific to smaller screens */
+  }
+}
+
+
+
 
 .What{
   background-color: #c7fbff;
