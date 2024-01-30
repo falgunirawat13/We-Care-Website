@@ -18,7 +18,7 @@ function SchoolsAnimation() {
 
   return (
     <div>
-      <CountUp end={50} duration={2} useEasing={true} separator="," prefix="" style={countingStyle}/>
+      <CountUp end={200} duration={2} useEasing={true} separator="," prefix="" style={countingStyle}/>
     </div>
   );
 }
