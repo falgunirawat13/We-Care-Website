@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import carousel1 from "../assets/images/carousel1.jpg";
 import carousel2 from "../assets/images/carousel2.jpg";
 import carousel3 from "../assets/images/carousel3.jpg";
-import carousel4 from "../assets/images/carousel4.jpg";
+// import carousel4 from "../assets/images/carousel4.jpg";
 import carousel5 from "../assets/images/carousel5.jpg";
 import who1 from "../assets/images/whoweare1.JPG";
 import who2 from "../assets/images/whoweare2.jpg";
@@ -90,7 +90,7 @@ const Home = () => {
             <MDBCarouselItem
               className="w-100 d-block "
               itemId={4}
-              src={carousel4}
+              src={carousel5}
               alt="..."
               style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
             >

@@ -7,6 +7,12 @@ body {
 	margin: 50px 0;
 }
 
+.main-head{
+	margin-top: 28px;
+    text-align: center;
+	/* text-decoration: underline;  */
+  }
+
 /* Actual Code: */
 .projcard-container,
 .projcard-container * {

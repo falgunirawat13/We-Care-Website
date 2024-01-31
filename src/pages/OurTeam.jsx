@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import clamp from "clamp-js";
+import areeb from "../assets/images/Areeb.jpg";
 import azhan from "../assets/images/azhan.jpg";
 import rehman from "../assets/images/Rehman.jpg";
 import zaid from "../assets/images/zaid.jpg";
@@ -16,13 +17,17 @@ const OurTeam = () => {
   }, []);
 
   return (
+    <>
+    <div>
+    <h1 className="main-head">MEET OUR TEAM</h1>
+    </div>
     <div className="projcard-container">
       {/* Card 1 */}
       <div className="projcard projcard-blue">
         <div className="projcard-innerbox">
           <img
             className="projcard-img"
-            src="https://picsum.photos/800/600?image=1041"
+            src={areeb}
             alt="Card 1"
           />
           <div className="projcard-textbox">
@@ -228,6 +233,7 @@ const OurTeam = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
