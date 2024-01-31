@@ -16,7 +16,7 @@ body {
   background-image:  url('../assets/images/backgroundhome.jpg');
   background-size: contain;
   position: relative;
-  padding-top: 55px;
+  padding-top: 35px;
   padding-bottom: 20px;
 }
 .Content1{    
@@ -24,7 +24,6 @@ body {
   text-align: justify;
 
 }
-
 
 @media (max-width: 767px) {
   /* Add your styles for smaller screens here */
@@ -68,6 +67,26 @@ body {
   }
 }
 
+/* Base styles for larger screens */
+.What1 {
+  background-color: #c7fbff;
+  padding: 20px;
+}
+
+.What1 p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 600px; /* Set a maximum width for better readability */
+  margin: 0 auto; /* Center the text */
+}
+
+/* Styles for smaller screens */
+@media (max-width: 767px) {
+  .What1 p {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
 
 
 
@@ -123,6 +142,7 @@ body {
 .main-head{
     font-family: "Inter", sans-serif;
     font-weight: 800;
+
 }
 .main-head1{
   font-weight: 600;

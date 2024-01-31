@@ -3,21 +3,6 @@ import "../styles/home.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import carousel1 from "../assets/images/carousel1.jpg";
-import carousel2 from "../assets/images/carousel2.jpg";
-import carousel3 from "../assets/images/carousel3.jpg";
-// import carousel4 from "../assets/images/carousel4.jpg";
-import carousel5 from "../assets/images/carousel5.jpg";
-import who1 from "../assets/images/whoweare1.JPG";
-import who2 from "../assets/images/whoweare2.jpg";
-import who3 from "../assets/images/whoweare3.jpg";
-import who4 from "../assets/images/whoweare4.jpg";
-import who5 from "../assets/images/whoweare5.JPG";
-import what1 from "../assets/images/whatwedo1.JPG";
-import what2 from "../assets/images/whatwedo2.JPG";
-import what3 from "../assets/images/whatwedo3.jpg";
-import what4 from "../assets/images/whatwedo4.jpg";
-import what5 from "../assets/images/whatwedo5.jpg";
 import card11 from "../assets/images/bachpanshala.jpg";
 import card22 from "../assets/images/menstrual.jpg";
 import card33 from "../assets/images/Bichona.jpg";
@@ -33,85 +18,23 @@ import school from "../assets/images/school.png";
 import thumbsup from "../assets/images/thumbsup.png";
 import streetplays from "../assets/images/streetplays.png";
 import {
-  MDBCarousel,
   MDBAccordion,
   MDBAccordionItem,
-  MDBCarouselItem,
   MDBIcon,
 } from "mdb-react-ui-kit";
 import Testimonials from "./testimonials";
+import Carous from "./Carous";
+import Whowe from "./whowe";
+import Whatwe from "./whatwe"
 
 const Home = () => {
   const [showAdditionalCards, setShowAdditionalCards] = useState(false);
   return (
     <>
-      <section>
-        <div>
-          <MDBCarousel showIndicators>
-            <MDBCarouselItem
-              className="w-100 d-block"
-              itemId={1}
-              alt="..."
-              src={carousel1}
-              style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
-            >
-              {/* <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-            </MDBCarouselItem>
-
-            <MDBCarouselItem
-              className="w-100 d-block"
-              itemId={2}
-              src={carousel2}
-              alt="..."
-              style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
-            >
-              {/* <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </MDBCarouselItem>
-
-            <MDBCarouselItem
-              className="w-100 d-block"
-              itemId={3}
-              src={carousel3}
-              alt="..."
-              style={{
-                height: "600px",
-                borderRadius: "0",
-                objectFit: "cover",
-                paddingTop: "1px",
-                paddingBottom: "1px",
-              }}
-            >
-              {/*   <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-            </MDBCarouselItem>
-
-            <MDBCarouselItem
-              className="w-100 d-block "
-              itemId={4}
-              src={carousel5}
-              alt="..."
-              style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
-            >
-              {/* <h5>Fourth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-            </MDBCarouselItem>
-
-            <MDBCarouselItem
-              className="w-100 d-block"
-              itemId={5}
-              src={carousel5}
-              alt="..."
-              style={{ height: "600px", borderRadius: "0", objectFit: "cover" }}
-            >
-              {/* <h5>Fifth slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-            </MDBCarouselItem>
-          </MDBCarousel>
-        </div>
-      </section>
-      <section className="What">
+    <section>
+      <Carous/>
+     </section>    
+      <section className="What1">
         <Container>
           <Row>
             <Col lg="12" className="text-center">
@@ -128,194 +51,12 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section>      
       <section className="Who">
-        <Container>
-          <Row>
-            <Col lg="6" style={{ marginLeft: "1px" }}>
-              <MDBCarousel showIndicators>
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={1}
-                  alt="..."
-                  src={who1}
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={2}
-                  src={who2}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={3}
-                  src={who3}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block "
-                  itemId={4}
-                  src={who4}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={5}
-                  src={who5}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-              </MDBCarousel>
-            </Col>
-            <Col lg="6" style={{ marginLeft: "-2px" }}>
-              <div className="Content1">
-                <div className="Main2">
-                  <div className="aboutheading">
-                    <a href="/AboutUs">
-                      <h4 style={{ color: "black" }}>About Us</h4>
-                    </a>
-                  </div>
-                  <h1 className="main-head">WHO WE ARE</h1>
-                  <p>
-                    Founded on the belief that small actions can lead to
-                    significant change, WeCare is just a group of teenagers
-                    trying to make a difference in the lives of the
-                    underprivileged section of society.
-                    <br />
-                    <br />
-                    Our goal is to empower communities, nurture dreams, and
-                    create a world where everyone has the opportunity to thrive.
-                    <br />
-                    <br />
-                    At the heart of our mission is Bachpanshala, a project that
-                    bridges the gap between dreams and reality, and together
-                    with your support, we aim to make a lasting impact on the
-                    lives of those we serve.
-                  </p>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <Whowe/>
       </section>
       <section className="What">
-        <Container>
-          <Row>
-            <Col lg="6" md="12" style={{ marginLeft: "-42px" }}>
-              <div className="Content2">
-                <div className="Main2">
-                  <h1 className="main-head">WHAT WE DO? </h1>
-                  <br />
-                  <p>
-                    At WeCare, we shift compassion into concrete change. We're
-                    dedicated to providing quality education, ensuring essential
-                    healthcare access, supporting communities, spreading
-                    awareness, and advocating for vital causes.
-                    <br />
-                    <br />
-                    Our Bachpanshala is a project that shrinks the gap between
-                    dreams and reality by teaching underprivileged children. We
-                    also offer volunteering opportunities, and our collective
-                    efforts are focused on turning dreams into reality and
-                    fostering positive change in the lives of those we serve.
-                  </p>
-                </div>
-              </div>
-            </Col>
-
-            <Col lg="6" md="12" style={{ marginLeft: "1px" }}>
-              <MDBCarousel showIndicators>
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={1}
-                  alt="..."
-                  src={what1}
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={2}
-                  src={what2}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={3}
-                  src={what3}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block "
-                  itemId={4}
-                  src={what4}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-
-                <MDBCarouselItem
-                  className="w-100 d-block"
-                  itemId={5}
-                  src={what5}
-                  alt="..."
-                  style={{
-                    height: "390px",
-                    borderRadius: "0",
-                    objectFit: "cover",
-                  }}
-                ></MDBCarouselItem>
-              </MDBCarousel>
-            </Col>
-          </Row>
-        </Container>
+        <Whatwe/>
       </section>
       <section className="Camp">
         <Container>
@@ -487,8 +228,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className="impact"
-       style={{ background: " #c7fbff" }}>
+      <section className="impact" style={{ background: " #c7fbff" }}>
         <Container>
           <Row>
             <Col lg="12" className="text-center">
