@@ -166,7 +166,31 @@ body {
       opacity: 1;
     }
   }
-
+  @media (max-width: 768px) {
+    .impact {
+      height: auto;
+    }
+  
+    .animated {
+      margin-top: 15px; /* Adjust margin for smaller screens */
+    }
+  
+    .animsection {
+      border: black 2px solid;
+      position: relative;
+      height: auto; /* Adjust height to auto for responsiveness */
+      max-height: none; /* Remove max-height for responsiveness */
+      margin-bottom: 15px; /* Adjust margin between cards on smaller screens */
+      padding: 45px; /* Add padding to the impact card for better text containment */
+      margin-left: 7px;
+    }
+  
+    .move-up-image {
+      animation: none; /* Disable animation on smaller screens */
+    }
+  }
+  
+  
 .question {
   position: relative;
   /* background-image: url('../assets/images/backgroundhome.jpg');

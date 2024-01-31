@@ -129,7 +129,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
       <section className="Who">
         <Container>
           <Row>
@@ -488,7 +487,8 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className="impact" style={{ background: " #c7fbff" }}>
+      <section className="impact"
+       style={{ background: " #c7fbff" }}>
         <Container>
           <Row>
             <Col lg="12" className="text-center">
