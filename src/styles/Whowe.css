@@ -2,16 +2,16 @@
 
 /* Styles for larger screens */
 .carousel-item-large {
-    height: 380px !important;
-    border-radius: 0;
-    object-fit: cover;
-  }
-  
-  /* Styles for smaller screens */
-  .carousel-item-small {
-    height: auto;
-    border-radius: 0;
-    object-fit: cover;
-    width: 100%;
-    max-height: 600px; /* set a maximum height to avoid stretching on smaller screens */
-  }
+  height : 400px !important;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+/* Styles for smaller screens */
+.carousel-item-small {
+  height: auto;
+  border-radius: 0;
+  object-fit: cover;
+  width: 100%;
+  max-height: 600px; /* set a maximum height to avoid stretching on smaller screens */
+}

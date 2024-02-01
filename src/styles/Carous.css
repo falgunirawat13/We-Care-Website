@@ -1,11 +1,14 @@
 /* Styles for larger screens */
-.carousel-item-large {
+.carousel-item-large1 {
   height: 560px !important;
   border-radius: 0;
   object-fit: cover;
   /* max-height: 600px;  */
 }
-
+/* 
+.car{
+  height: 560px !important;
+} */
 /* Styles for smaller screens */
 .carousel-item-small {
   height: auto;

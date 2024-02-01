@@ -26,9 +26,10 @@ const YourCarouselComponent = () => {
   }, []);
 
   return (
+    <div className='car'>
     <MDBCarousel showIndicators>
       <MDBCarouselItem
-        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large'}`}
+        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large1'}`}
         itemId={1}
         alt="..."
         src={carousel1}
@@ -36,7 +37,7 @@ const YourCarouselComponent = () => {
         {/* Content for the carousel item */}
       </MDBCarouselItem>
       <MDBCarouselItem
-        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large'}`}
+        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large1'}`}
         itemId={2}
         alt="..."
         src={carousel2}
@@ -44,14 +45,14 @@ const YourCarouselComponent = () => {
         {/* Content for the carousel item */}
       </MDBCarouselItem>
       <MDBCarouselItem
-        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large'}`}
+        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large1'}`}
         itemId={3}
         alt="..."
         src={carousel3}
       >
         </MDBCarouselItem>
       <MDBCarouselItem
-        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large'}`}
+        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large1'}`}
         itemId={4}
         alt="..."
         src={carousel4}
@@ -59,7 +60,7 @@ const YourCarouselComponent = () => {
         {/* Content for the carousel item */}
       </MDBCarouselItem>
       <MDBCarouselItem
-        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large'}`}
+        className={`w-100 d-block ${isSmallScreen ? 'carousel-item-small' : 'carousel-item-large1'}`}
         itemId={5}
         alt="..."
         src={carousel5}
@@ -67,6 +68,7 @@ const YourCarouselComponent = () => {
         {/* Content for the carousel item */}
       </MDBCarouselItem>
     </MDBCarousel>
+    </div>
   );
 };
 
