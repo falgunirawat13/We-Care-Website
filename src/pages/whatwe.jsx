@@ -30,10 +30,10 @@ const Whowe = () => {
     <>
       <Container>
         <Row>
-          <Col lg="6" md="12" style={{ marginLeft: "-42px" }}>
+          <Col className="whatwe2" lg="6" md="12" style={{ marginLeft: "-42px" }}>
             <div className="Content2">
               <div className="Main2">
-                <h1 className="main-head">WHAT WE DO? </h1>
+                <h1 className="main-head">WHAT WE DO </h1>
                 <br />
                 <p>
                   At WeCare, we shift compassion into concrete change. We're
