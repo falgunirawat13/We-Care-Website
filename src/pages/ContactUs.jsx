@@ -25,7 +25,7 @@ const ContactUs = () => {
       <div className="row">
         <div className="col-md-6" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
           <h1>Get In Touch</h1>
-          <img src={img} alt="" style={{width: '560px' , height: '390px' ,borderRadius: '0', marginTop:"10px", marginBottom:"28px" , marginLeft:"-10px"}}/>
+          <img src={img} alt="" style={{width: '590px' , height: '410px' ,borderRadius: '0', marginTop:"10px", marginBottom:"28px" , marginLeft:"-10px"}}/>
         </div>
         <div className="col-md-6" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
           <MDBValidation noValidate id='form' ref={formRef} onSubmit={sendEmail}>

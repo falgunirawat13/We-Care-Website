@@ -17,23 +17,19 @@ import growingtree from "../assets/images/growingtree.png";
 import school from "../assets/images/school.png";
 import thumbsup from "../assets/images/thumbsup.png";
 import streetplays from "../assets/images/streetplays.png";
-import {
-  MDBAccordion,
-  MDBAccordionItem,
-  MDBIcon,
-} from "mdb-react-ui-kit";
+import { MDBAccordion, MDBAccordionItem, MDBIcon } from "mdb-react-ui-kit";
 import Testimonials from "./testimonials";
 import Carous from "./Carous";
 import Whowe from "./whowe";
-import Whatwe from "./whatwe"
+import Whatwe from "./whatwe";
 
 const Home = () => {
   const [showAdditionalCards, setShowAdditionalCards] = useState(false);
   return (
     <>
-    <section>
-      <Carous/>
-     </section>    
+      <section>
+        <Carous />
+      </section>
       <section className="What1">
         <Container>
           <Row>
@@ -51,12 +47,12 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </section>      
+      </section>
       <section className="Who">
-        <Whowe/>
+        <Whowe />
       </section>
       <section className="What">
-        <Whatwe/>
+        <Whatwe />
       </section>
       <section className="Camp">
         <Container>
@@ -65,15 +61,12 @@ const Home = () => {
               <h1 class="main-head" style={{ marginTop: "1%" }}>
                 OUR INITIATIVES
               </h1>
+              <p> <MDBIcon fas icon="quote-left" className="pe-2" /> 
+              The only way to do great work is to love what you do {" "}
+              <MDBIcon fas icon="quote-right" className="pe-2" /></p>
               <p>
-                {" "}
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                itaque!
-              </p>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
-                ipsam sequi esse rerum mollitia deserunt. Sint dolore quam
-                magnam quos.
+                Explore how our initiatives create positive changes amid the
+                complexities of our ever-changing world.
               </p>
               <br />
             </Col>
@@ -200,10 +193,19 @@ const Home = () => {
                     <Card.Img className="cardi" variant="top" src={card66} />
                     <Card.Body className="text-center d-flex flex-column align-items-center">
                       <Card.Title className="text-center">
-                        PLANTATION DRIVE
+                        DONATION DRIVE
                       </Card.Title>
                       <Card.Text className="Content5">
-                        -------------------------
+                        Rooted in the principle of "Alone we can do so little;
+                        together we can do so much”, WeCare spreads joy through
+                        vibrant donation drives. In the past, we shared smiles
+                        by providing clothing to children and older individuals
+                        in need. Simultaneously, our heartfelt food donation
+                        drive has touched the lives of both homeless individuals
+                        on the streets and our furry friends, the stray animals.
+                        These endeavors reflect our unwavering commitment to
+                        making the world a brighter, happier place, one act of
+                        generosity at a time.
                       </Card.Text>
                       <Button variant="primary">Explore More</Button>
                     </Card.Body>
@@ -236,10 +238,9 @@ const Home = () => {
                 OUR IMPACT
               </h1>
               <p>
-                “No step is too small on the road to social reform.” <br />
-                Focusing on bringing change from the bottom-up, we have curated
-                campaigns focused on the grassroots level, with our impact
-                reaching far and wide.
+              <MDBIcon fas icon="quote-left" className="pe-2" />
+              It’s not about how much we give, but how much love we put into giving {" "}
+              <MDBIcon fas icon="quote-right" className="pe-2" />
               </p>
             </Col>
           </Row>
