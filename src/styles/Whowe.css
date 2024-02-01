@@ -2,7 +2,7 @@
 
 /* Styles for larger screens */
 .carousel-item-large {
-    height: 400px;
+    height: 380px !important;
     border-radius: 0;
     object-fit: cover;
   }
