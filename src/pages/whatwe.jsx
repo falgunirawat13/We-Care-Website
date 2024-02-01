@@ -31,7 +31,7 @@ const Whowe = () => {
       <Container>
         <Row>
           <Col lg="6" md="12" style={{ marginLeft: "-42px" }}>
-            <div className="Content2">
+            <div className="whatwe2">
               <div className="Main2">
                 <h1 className="main-head">WHAT WE DO? </h1>
                 <br />
@@ -51,7 +51,7 @@ const Whowe = () => {
               </div>
             </div>
           </Col>
-
+           <div className="whatwe">
           <Col lg="6" style={{ marginLeft: "1px" }}>
             <MDBCarousel showIndicators>
               <MDBCarouselItem
@@ -104,6 +104,7 @@ const Whowe = () => {
               </MDBCarouselItem>
             </MDBCarousel>
           </Col>
+          </div>
         </Row>
       </Container>
     </>

@@ -204,7 +204,7 @@ const Home = () => {
                         drive has touched the lives of both homeless individuals
                         on the streets and our furry friends, the stray animals.
                         These endeavors reflect our unwavering commitment to
-                        making the world a brighter, happier place, one act of
+                        making the world a brighter place, one act of
                         generosity at a time.
                       </Card.Text>
                       <Button variant="primary">Explore More</Button>
@@ -230,7 +230,8 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className="impact" style={{ background: " #c7fbff" }}>
+      <section className="impact" 
+      style={{ background: " #c7fbff" }}>
         <Container>
           <Row>
             <Col lg="12" className="text-center">

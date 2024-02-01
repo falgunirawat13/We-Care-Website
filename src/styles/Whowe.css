@@ -2,7 +2,7 @@
 
 /* Styles for larger screens */
 .carousel-item-large {
-  height : 400px !important;
+  height: 400px !important;
   border-radius: 0;
   object-fit: cover;
 }
@@ -14,4 +14,40 @@
   object-fit: cover;
   width: 100%;
   max-height: 600px; /* set a maximum height to avoid stretching on smaller screens */
+}
+
+@media only screen and (max-width: 767px) {
+  .whatwe2 {
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .whatwe {
+    margin-left: -5px;
+  }
+}
+
+/* Media queries for medium-sized screens */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .whatwe2 {
+    /* Adjust styling for "whatwe2" on medium-sized screens */
+  }
+
+  .whatwe {
+    /* Adjust styling for "whatwe" on medium-sized screens */
+  }
+}
+
+/* Media queries for larger screens */
+
+@media only screen and (min-width: 992px) {
+  .whatwe2 {
+    /* Adjust styling for "whatwe2" on larger screens */
+  }
+
+  .whatwe {
+    /* Adjust styling for "whatwe" on larger screens */
+  }
 }
