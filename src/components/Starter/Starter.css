@@ -16,6 +16,20 @@ body {
   justify-content: space-between;
 }
 
+/* Add circular styling for SocialIcon components */
+.iconss .me-2 {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Add hover effect if desired */
+.iconss .me-2:hover {
+  transform: scale(1.1);
+  background-color: #00684d; /* Set the hover background color */
+}
+
 .example img {
   display: inline-block;
   margin-top: 0;
@@ -32,24 +46,104 @@ body {
   }
 
   .example h4 {
-    font-size: 18px;
+    font-size: 14px;
     margin-left: -4px !important;
   }
 
   .example img {
-    width: 26%;
+    width: 23%;
     height: auto;
     margin-right: 10px;
+    margin-left: 2px;
   }
 
   .iconss {
     display: flex;
     justify-content: space-around;
-    width: 38%;
+    /* width: 30%; */
     margin: 0 auto;
   }
 
-  .iconss .social-icon {
-    border-radius: 50%;
+  /* Apply circular styling for smaller screens */
+  .iconss .me-2 {
+    width: 34px !important; /* Adjust the size as needed for smaller screens */
+    height: 34px !important; /* Adjust the size as needed for smaller screens */
+  }
+
+  /* Add hover effect if desired */
+  .iconss .me-2:hover {
+    transform: scale(1.1);
+    background-color: #00684d; /* Set the hover background color */
+  }
+}
+
+.donate {
+  position: relative;
+  background: rgb(132, 202, 229);
+  background: -webkit-linear-gradient(
+      top,
+      transparent 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    -webkit-linear-gradient(left, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(
+            #00684d,
+            15%
+          )
+          100%);
+  background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    linear-gradient(
+      to right,
+      lighten(#00684d, 15%) 0%,
+      #00684d 50%,
+      lighten(#00684d, 15%) 100%
+    );
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 60px;
+  color: black;
+  font-size: 18px;
+  padding: 14px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  transition: all 800ms;
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    transition: all 800ms;
+  }
+
+  &:after {
+    border-left: 1px solid darken(#00684d, 5%);
+    color: darken(#00684d, 10%);
+    content: "\f004";
+    font: 20px "FontAwesome";
+    padding: 10px 10px;
+    padding-left: 15px;
+    position: absolute;
+    right: 16px;
+    top: 7px;
+    transition: all 600ms 200ms;
+  }
+
+  &:hover {
+    background-position: -100% 0;
+
+    &::before {
+      color: #fff;
+    }
+
+    &:after {
+      border-left: 1px solid lighten(#00684d, 5%);
+      color: #fff;
+      text-shadow: 0 0 10px #000;
+    }
   }
 }

@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
 
-
-* { 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Montserrat', 'Sans-serif';
+  font-family: "Montserrat", "Sans-serif";
   min-height: 100vh;
 }
 
-.Who{
-  background-image:  url('../assets/images/backgroundhome.jpg');
+.Who {
+  background-image: url("../assets/images/backgroundhome.jpg");
   background-size: contain;
   position: relative;
   padding-top: 35px;
   padding-bottom: 20px;
 }
-.Content1{    
-  max-height:500px;
+.Content1 {
+  max-height: 500px;
   text-align: justify;
-
 }
 
 @media (max-width: 767px) {
@@ -36,34 +34,30 @@ body {
     margin-top: 10px; /* Example: Adjust margin for smaller screens */
   }
 
-  .main-head{
+  .main-head {
     text-align: center;
   }
 }
-
 
 @media (max-width: 767px) {
   /* Add your styles for smaller screens here */
   .What {
     padding: 10px; /* Example: Add padding for smaller screens */
-    margin-left: 2px;
+   
   }
 
-  .main-head{
-    margin-left: 12px;
-    text-align: center;
+  .main-head {
+   text-align: center;
   }
-  .p{
+  .p {
     text-align: center;
-    margin-left: 5px;
-    margin-bottom: 15px !important;
+    margin-left: 2px;
+    margin-bottom: 10px !important;
   }
   .Main2 {
     /* Add styles specific to smaller screens */
     text-align: center;
-    margin-left: 12px;
-  
-    
+    margin-left: 2px;
   }
 }
 
@@ -88,170 +82,158 @@ body {
   }
 }
 
-
-
-.What{
+.What {
   background-color: #c7fbff;
-  width: 100%;   
+  width: 100%;
+  background-size: contain;
   position: relative;
-  padding:50px;
+  padding-top: 35px;
+  padding-bottom: 20px;
 }
-.Content2{
-    max-height: 500px;
-    text-align: justify;
-
-}
-
-
-.Camp{
-    /* margin-top: 40px; */
-    /* margin-bottom: 1%; */
-    background-image:  url('../assets/images/backgroundhome.jpg');
-    background-size: contain;
-    max-height: fit-content;
+.Content2 {
+  max-height: 700px;
+  text-align: justify;
 }
 
 
-
-.cardi{
-    margin-top: 5px;
-    height: 250px;
-    width:100%;
-    border-radius: 2px !important;
-    
+.Camp {
+  /* margin-top: 40px; */
+  /* margin-bottom: 1%; */
+  background-image: url("../assets/images/backgroundhome.jpg");
+  background-size: contain;
+  max-height: fit-content;
 }
 
-.cardcamp{
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+.cardi {
+  margin-top: 5px;
+  height: 250px;
+  width: 100%;
+  border-radius: 2px !important;
+}
+
+.cardcamp {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px !important;
-  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
   max-width: 700px;
   max-height: 1100px;
-  
-  
 }
 
-.Content5{
+.Content5 {
   font-size: 16px;
   color: #333;
   font-weight: 400;
 }
 
-.main-head{
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
-
+.main-head {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
 }
-.main-head1{
-  font-weight: 600;
-}
-
-
-.animsection{
-    border: black 2px solid;
-    position: relative;
-    max-height: 5400px;
+.main-head1 {
+  font-weight: 500;
 }
 
-.animated{
-    width: 100% ;
-    margin-top: 45px;
-    /* height: 100px;
-    margin-bottom: 2px; */
-
-}
-
-.impact{
+.animsection {
+  border: black 2px solid;
   position: relative;
-    width: 100%;
-    height: 540px;
-    /* margin-bottom: 1%; */
+  max-height: 5400px;
 }
 
+.animated {
+  width: 100%;
+  margin-top: 45px;
+  /* height: 100px;
+    margin-bottom: 2px; */
+}
 
+.impact {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  /* margin-bottom: 1%; */
+}
 
 .move-up-image {
-    animation: moveUp 1s forwards;
+  animation: moveUp 1s forwards;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  
-  @keyframes moveUp {
-    from {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  @media (max-width: 768px) {
-    .impact {
-      height: auto;
-    }
-  
-    .animated {
-      margin-top: 15px; /* Adjust margin for smaller screens */
-    }
-  
-    .animsection {
-      border: black 2px solid;
-      position: relative;
-      height: auto; /* Adjust height to auto for responsiveness */
-      max-height: none; /* Remove max-height for responsiveness */
-      margin-bottom: 15px; /* Adjust margin between cards on smaller screens */
-      padding: 45px; /* Add padding to the impact card for better text containment */
-      margin-left: 7px;
-    }
-  
-    .move-up-image {
-      animation: none; /* Disable animation on smaller screens */
-    }
+}
+@media (max-width: 768px) {
+  .impact {
+    height: auto;
   }
-  
-  
+
+  .animated {
+    margin-top: 15px; /* Adjust margin for smaller screens */
+  }
+
+  .animsection {
+    border: black 2px solid;
+    position: relative;
+    height: auto; /* Adjust height to auto for responsiveness */
+    max-height: none; /* Remove max-height for responsiveness */
+    margin-bottom: 15px; /* Adjust margin between cards on smaller screens */
+    padding: 45px; /* Add padding to the impact card for better text containment */
+    margin-left: 7px;
+  }
+
+  .move-up-image {
+    animation: none; /* Disable animation on smaller screens */
+  }
+}
+
 .question {
   position: relative;
   /* background-image: url('../assets/images/backgroundhome.jpg');
   background-size: contain; */
   background-color: #c7fbff;
   padding-bottom: 60px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .question .col-lg-6 {
   max-height: 4000px;
   overflow-y: auto;
-  z-index: 2; 
+  z-index: 2;
 }
-  .impactCard {
-    background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-  }
+.impactCard {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
-  .slider-container {
-    display: flex;
-    overflow: hidden;
-  }
+.slider-container {
+  display: flex;
+  overflow: hidden;
+}
 
-  .slider {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-  }
-  .slide {
-    min-width: 100%;
-  }
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.slide {
+  min-width: 100%;
+}
 
-  .aboutheading a{
-    text-decoration: none !important;
-  }
+.aboutheading a {
+  text-decoration: none !important;
+}
 
-  .Content5{
-    text-align: justify;
-  }
+.Content5 {
+  text-align: justify;
+}

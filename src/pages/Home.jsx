@@ -40,7 +40,7 @@ const Home = () => {
                 <MDBIcon fas icon="quote-left" className="pe-2" />
                 <span style={{ fontStyle: "italic" }}>
                   There is no greater violence than to deny the dreams of our
-                  children.
+                  children{" "}
                 </span>
                 <MDBIcon fas icon="quote-right" className="pe-2" />
                 <br />

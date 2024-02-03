@@ -30,7 +30,12 @@ const Whowe = () => {
     <>
       <Container>
         <Row>
-          <Col className="whatwe2" lg="6" md="12" style={{ marginLeft: "-42px" }}>
+          <Col
+            className="whatwe2"
+            lg="6"
+            md="12"
+            style={{ marginLeft: "-42px" }}
+          >
             <div className="Content2">
               <div className="Main2">
                 <h1 className="main-head">WHAT WE DO </h1>
@@ -41,12 +46,19 @@ const Whowe = () => {
                   healthcare access, supporting communities, spreading
                   awareness, and advocating for vital causes.
                   <br />
-                  <br />
-                  Our Bachpanshala is a project that shrinks the gap between
-                  dreams and reality by teaching underprivileged children. We
-                  also offer volunteering opportunities, and our collective
-                  efforts are focused on turning dreams into reality and
-                  fostering positive change in the lives of those we serve.
+                  <br/>
+                  We also engage in various other philanthropic endeavours,
+                  including environmental conservation, and animal welfare. Our
+                  vision is to create a more prosperous society, free from
+                  suffering, where kindness and compassion are the driving
+                  forces. 
+                  <br/>
+                  <br/>
+                  Our Bachpanshala is a project that shrinks the gap
+                  between dreams and reality by teaching underprivileged
+                  children. We also offer volunteering opportunities, and our
+                  collective efforts are focused on luring dreams into reality
+                  and fostering positive change in the lives of those we serve.
                 </p>
               </div>
             </div>

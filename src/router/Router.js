@@ -14,6 +14,7 @@ import { Certifications } from '../pages/Certifications';
 import Vp from '../pages/Vp';
 import Sponsorship from "../pages/Sponsorship";
 import PartnerWithUs from "../pages/PartnerWithUs";
+import DonateNow from '../pages/DonateNow';
 
 const Routers = () => {
   return (
@@ -33,6 +34,7 @@ const Routers = () => {
       <Route path="/Impact" element={<Impact />} />
       <Route path="/ContactUs" element={<ContactUs />} />
       <Route path="/OurWork" element={<OurWork />} />
+      <Route path="/donate" element={<DonateNow />} />
     </Routes>
   );
 };
