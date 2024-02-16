@@ -1,5 +1,6 @@
 import React from "react";
-// import "../styles/Donate.css"
+import qr from "../assets/images/qr.jpg";
+import "../styles/Donate.css";
 
 const DonateNow = () => {
   return (
@@ -28,8 +29,10 @@ const DonateNow = () => {
           alignItems: "center",
         }}
       >
+        WE BELIEVE GIVING IS THE GREATEST ART OF GRACE <br/>
+        AND OUR REWARD IS THEIR BLESSING<br/><br/>
         <img
-          src="https://iili.io/HZsWb7S.png"
+          src={qr}
           id="qr"
           alt=" qr code"
           style={{

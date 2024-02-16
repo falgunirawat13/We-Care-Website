@@ -43,7 +43,7 @@ const Starter = () => {
         />
          {!isSmallScreen && (
         <Link to="/donate" className="donate">
-          DONATE
+          DONATE NOW
         </Link>
          )}
       </div>

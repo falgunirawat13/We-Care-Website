@@ -78,6 +78,7 @@ body {
 }
 
 .donate {
+  text-decoration: none;
   position: relative;
   background: rgb(132, 202, 229);
   background: -webkit-linear-gradient(

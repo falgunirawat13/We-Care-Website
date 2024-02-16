@@ -7,6 +7,7 @@ import zaid from "../assets/images/zaid.jpg";
 import shivansh from "../assets/images/shivansh.jpg";
 import satnam from "../assets/images/satnam.jpg";
 import harsh from "../assets/images/harsh.jpg";
+import hr from "../assets/images/hr.jpg";
 import "../styles/Ourteam.css";
 
 const OurTeam = () => {
@@ -213,7 +214,7 @@ const OurTeam = () => {
         <div className="projcard-innerbox">
           <img
             className="projcard-img"
-            src="https://picsum.photos/800/600?image=943"
+            src={hr}
             alt="Card 4"
           />
           <div className="projcard-textbox">

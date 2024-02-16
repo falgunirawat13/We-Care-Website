@@ -1,4 +1,4 @@
-.carddonate {
+/* .carddonate {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 10px 40px hsl(220, 15%, 55%);
@@ -57,4 +57,25 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+} */
+@media (max-width: 768px) {
+  .carddonate {
+    width: 100%;
+    padding: 2%; /* Adjust padding for smaller screens */
+    font-size: 1rem !important;
+  }
+  
+  h2 {
+    font-size: 0.5rem; /* Decrease heading font size for smaller screens */
+  }
+
+  p {
+    font-size: 1rem; /* Decrease paragraph font size for smaller screens */
+    margin-bottom: 10px; /* Adjust margin bottom for paragraphs */
+  }
+
+  .upi img {
+    height: 30px; /* Decrease UPI logo height for smaller screens */
+    padding: 3px; /* Adjust padding around UPI logos */
+  }
 }

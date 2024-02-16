@@ -5,6 +5,7 @@ import img from "../assets/images/contactus.jpg";
 // const btnHead = {
 //   marginBottom: '5px',
 // };
+import "../styles/Contact.css";
 
 
 const ContactUs = () => {

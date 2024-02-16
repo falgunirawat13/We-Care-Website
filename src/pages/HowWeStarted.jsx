@@ -1,32 +1,67 @@
-import React from 'react'
-import carousel5  from '../assets/images/carousel3.jpg';
+import React from "react";
+import carousel5 from "../assets/images/carousel3.jpg";
 import "../styles/WeStarted.css";
 
 const HowWeStarted = () => {
   return (
     <>
-    <div class="image-container">
-      <img src={carousel5} alt="" style={{objectFit:'cover', width:"100%", height:"400px", borderRadius:'0'}}/>
-      <div class="image-text">
-       HOW WE STARTED
-    </div>
-  </div>
-  <div>
-    <h4 className='head1'><br/> Inception of We Care: A Spark of Compassion </h4>
-    <p className='para1'>
-<br></br>We Care was born from a simple yet powerful spark of compassion in 2020. It all began with a shared belief that positive change starts with individual actions. Three dedicated individuals initiated the journey, driven by a profound desire to make a meaningful impact on the lives of those in need.
-<br/><br/>The vision was clear – to create an organization that would serve as a beacon of hope and support for the underprivileged. With a commitment to addressing critical issues such as child education, women's empowerment, and animal welfare, We Care took its first steps towards building a better future for all.
-
-Our founders started small, working hands-on to make a difference. <br></br><br/>The initial focus was on teaching underprivileged children in slums through the Bachpanshala initiative. As the impact grew, so did the team, evolving from a trio of passionate individuals to a dedicated force of 40 volunteers, all united by the common goal of fostering positive change.
-
-<br/><br/>The heart of We Care lies in its commitment to holistic approaches, innovative solutions, and community engagement. Whether it's through Bachpanshala, our road safety initiatives, or the Charity Cup fundraising event, every endeavor reflects our founders' initial vision of creating a more compassionate and inclusive world.
-
-<br/><br/>From that initial spark of compassion, We Care has evolved into a dynamic force for good, driven by the collective determination to create lasting positive change. As we continue to grow, our roots remain firmly grounded in the belief that together, through small yet impactful actions, we can build a better and brighter future for everyone.<br/><br/>
-    </p>
-  </div>
-  
+      <div class="image-container">
+        <img
+          src={carousel5}
+          alt=""
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "400px",
+            borderRadius: "0",
+          }}
+        />
+        <div class="image-text">HOW WE STARTED</div>
+      </div>
+      <div>
+        <h4 className="head1">
+          <br /> Inception of We Care: A Spark of Compassion{" "}
+        </h4>
+        <p className="para1">
+          <br></br>
+          <span>
+            “A little love and care can revolutionize the entire world.”{" "}
+          </span>{" "}
+          We Care started as a simple Idea in the mind of a simple man that
+          someone must care for the Un-asked. We Care came into existence in
+          2020 when the COVID-19 pandemic brought the entire world to its knees.
+          But the people who were most adversely affected by the pandemic were
+          the ones already deprived and left behind by society.
+          <br />
+          <br />
+          It was the will and desire to change the destiny of these people that
+          inspired a youngster in Bhopal, Areeb Khan to act. Areeb, who was just
+          18 at that time, with his childhood friends Rehman and Harsh went on a
+          crusade to make a difference, to bring change in the depressing times
+          of the pandemic. It was this motivation and a belief in change that
+          later morphed into We Care.
+          <br />
+          <br />
+          We Care started with food distribution to the poor during the COVID
+          crisis. Soon realizing the need of the hour, We Care rapidly expanded
+          its horizon and started working on Animal Welfare, Women Empowerment,
+          Road Safety Campaigns, Awareness drives, and Education.
+          <br />
+          <br />
+          At the first anniversary of We Care, we launched Bachpanshala an
+          initiative by We Care to educate the underprivileged kids of slums in
+          Bhopal. Bachpanshala initially worked on weekends and on the first
+          anniversary Bachpanshala made a revolutionary decision to take classes
+          every single day of the week. The new approach proved highly
+          successful in transforming the lives of the children. Bachpanshala is
+          the beacon of hope, lighting the path towards a brighter future for
+          the children of Bhopal.
+          <br />
+          <br />
+        </p>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default HowWeStarted
+export default HowWeStarted;

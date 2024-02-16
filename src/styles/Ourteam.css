@@ -172,3 +172,59 @@ body {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+@media only screen and (max-width: 768px) {
+	.main-head{
+		margin-bottom: 20px;
+	}
+	.projcard-container {
+	  width: 90%; /* Adjust width to fit smaller screens */
+	  margin: 0 auto;
+	}
+  
+	.projcard {
+	  height: auto; /* Allow cards to expand vertically */
+	}
+  
+	.projcard-textbox {
+	  position: relative;
+	  top: auto;
+	  left: auto;
+	  width: auto;
+	  margin-top: 10px; /* Add some space between image and text */
+	  padding: 10px; /* Add padding for better readability */
+	  height: 350px;
+	}
+  
+	.projcard-img {
+	  width: 100%; /* Make images fill the container */
+	  height: auto;
+	  position: relative;
+	  border-radius: 10px; /* Restore border radius */
+	}
+  
+	.projcard-innerbox {
+	  position: relative;
+	  display: flex;
+	  flex-direction: column; /* Stack image on top of text */
+	}
+  
+	.projcard-bar {
+	  display: none; /* Hide the bar on smaller screens */
+	}
+  
+	.projcard-description {
+	  height: auto; /* Allow text to expand */
+	  overflow: visible !important; /* Show full text */
+	  text-overflow: unset; /* Unset ellipsis */
+	}
+  
+	/* Adjust the position of text for every alternate card */
+	.projcard:nth-child(2n) .projcard-textbox {
+	  left: auto;
+	  right: auto;
+	  margin-left: 10px; /* Add margin to separate text from image */
+	  margin-right: 10px;
+	}
+  }
+  

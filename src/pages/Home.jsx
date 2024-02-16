@@ -248,7 +248,7 @@ const Home = () => {
                         </Card>
                       </Col>
                     </CarouselItem>
-                    
+
                     <CarouselItem>
                       <Col lg="4" md="6" sm="12" style={{ marginBottom: "3%" }}>
                         <Card className="cardcamp" style={{ width: "100%" }}>
@@ -338,7 +338,6 @@ const Home = () => {
                         </Card>
                       </Col>
                     </CarouselItem>
-                  
                   </Carousel>
                 </>
               )}
@@ -419,7 +418,7 @@ const Home = () => {
                     </Card>
                   </Col>
                 </>
-              )}             
+              )}
 
               {!isSmallScreen && (
                 <>
@@ -563,52 +562,67 @@ const Home = () => {
                   headerTitle="What do we do in We Care?"
                   style={{ marginBottom: "10px" }}
                 >
-                  t's also worth noting that just about any HTML can go within
-                  the
+                  We Care is a social welfare non-profit organization dedicated
+                  to bringing positive societal change. Operating in the fields
+                  of Education, women empowerment, and animal welfare, We Care
+                  provides a platform for those passionate about contributing to
+                  these causes. Notable projects like Bachpanshala, Project
+                  Bichhona, Menstrual Hygiene Drive are spearheaded by We Care
+                  to foster impactful changes in society.
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={2}
                   headerTitle="How can I join We Care?"
                   style={{ marginBottom: "10px" }}
                 >
-                  hough the transition does limit overflow.
+                  We Care operates as a role-based organization, recruiting
+                  volunteers for various roles aligned with the organization's
+                  needs. Our structured recruitment process involves posting
+                  vacancies on our social media platforms for positions such as
+                  ground workers, teachers, photographers, HR professionals,
+                  graphic designers, and more. Anyone interested in joining We
+                  Care is encouraged to participate in our recruitment process,
+                  contributing their skills and passion to our impactful
+                  initiatives.
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={3}
                   headerTitle="What is Bachpanshala?"
                   style={{ marginBottom: "10px" }}
                 >
-                  though the transition does limit overflow.
+                  Bachpanshala is a unique educational endeavour initiated by We
+                  Care. Bachpanshala aims to provide quality education to kids
+                  deprived of education. Bachpanshala is one of few
+                  non-governmental educational programs that teaches kids every
+                  single day of the week and every week of the year.
+                  Bachpanshala has been running continuously for the past 2
+                  years and has impacted the lives of dozens of underprivileged
+                  kids
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={4}
                   headerTitle="Where is we Care based?"
                   style={{ marginBottom: "10px" }}
                 >
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  We Care is a Bhopal-based NGO, dedicated to serving the
+                  underprivileged in the city of Lakes. Over the past three
+                  years, We Care has become synonymous with positive change in
+                  the lives of underprivileged children in{" "}
+                  <strong>Bhopal</strong>.
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={5}
                   headerTitle="Is We Care a certified NGO?"
                   style={{ marginBottom: "10px" }}
                 >
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Yes, We Care is a certified NGO under the Indian Societies
+                  Registration Act of 1860, with the Serial Number –
+                  01/01/01/37459/21. We Care received its certification on 6
+                  February 2021, establishing itself as a recognized
+                  non-governmental organization. Since its inception, We Care
+                  has been dedicated to tirelessly working towards creating
+                  positive change in society, and we remain committed to this
+                  mission in the years to come
                 </MDBAccordionItem>
               </MDBAccordion>
             </Col>
@@ -619,62 +633,66 @@ const Home = () => {
                   headerTitle="How Can I donate to We Care?"
                   style={{ marginBottom: "10px" }}
                 >
-                  well as the showing and hiding via CSS transitions. You can
-                  modify any of this with custom CSS or overriding our default
-                  variables. It's also worth noting that just about any HTML can
-                  go within the <code>.accordion-body</code>, though the
-                  transition does limit overflow.
+                  We Care gratefully accepts monetary donations from individuals
+                  who wish to contribute to our impactful causes. To make a
+                  donation, simply click on the "Donate Now" button located at
+                  the top of our website. We appreciate every little
+                  contribution made to We Care, as it plays a significant role
+                  in supporting the meaningful work we are dedicated to. Your
+                  generosity contributes to positive change in society. Thank
+                  you for your support!
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={2}
                   headerTitle="How can I stay updated on WeCare's latest activities and events?"
                   style={{ marginBottom: "10px" }}
                 >
-                  It is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with
+                  Stay informed about WeCare's latest activities and events by
+                  regularly visiting our website and following us on our social
+                  media platforms. Our updates, announcements, and impactful
+                  stories are regularly shared on these channels, keeping you
+                  connected with our journey of positive change.
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={3}
                   headerTitle="How does We Care raise and utilize resources?"
                   style={{ marginBottom: "10px" }}
                 >
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding
+                  At We Care, our resources are derived from diverse channels,
+                  including:
+                  <ul>
+                    <li>
+                      {" "}
+                      Individual Contributions: Compassionate supporters
+                      contribute to our initiatives.
+                    </li>
+                    <li>
+                      Corporate and Institutional Collaborations: Partnerships
+                      with corporations and institutions result in valuable
+                      contributions.
+                    </li>
+                  </ul>
+                  Our proposal formation includes a comprehensive budget
+                  outlining resource allocation. The majority of funds are
+                  earmarked for directly impacting and improving social causes.
+                  We prioritize transparency and efficiency in utilizing
+                  resources to maximize our positive impact.
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={4}
                   headerTitle="Are there any ongoing initiatives open for donations at We Care?"
                   style={{ marginBottom: "10px" }}
                 >
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Yes, We Care frequently has ongoing initiatives available for
+                  donations. Explore our website or contact us directly to learn
+                  about current projects open for contributions and how you can
+                  actively participate in creating positive change.
                 </MDBAccordionItem>
                 <MDBAccordionItem
                   collapseId={5}
-                  headerTitle="How can I donate to an initiative at We Care?"
+                  headerTitle=" "
                 >
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                 
                 </MDBAccordionItem>
               </MDBAccordion>
             </Col>
