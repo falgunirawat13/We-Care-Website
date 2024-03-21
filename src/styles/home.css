@@ -43,11 +43,10 @@ body {
   /* Add your styles for smaller screens here */
   .What {
     padding: 10px; /* Example: Add padding for smaller screens */
-   
   }
 
   .main-head {
-   text-align: center;
+    text-align: center;
   }
   .p {
     text-align: center;
@@ -94,7 +93,6 @@ body {
   max-height: 700px;
   text-align: justify;
 }
-
 
 .Camp {
   /* margin-top: 40px; */

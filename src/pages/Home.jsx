@@ -23,11 +23,23 @@ import Carous from "./Carous";
 import Whowe from "./whowe";
 import Whatwe from "./whatwe";
 import { useMediaQuery } from "react-responsive";
+import {useNavigate } from 'react-router-dom';
+
+
+
 
 const Home = () => {
   const [showAdditionalCards, setShowAdditionalCards] = useState(false);
   const isSmallScreen = useMediaQuery({ maxWidth: 767 });
-  return (
+  const navigate = useNavigate();
+  const handlemenstrualhygieneClick = () => {
+    navigate('/contactus');
+  };
+
+  const handleBachpanshalaClick = () => {
+    navigate('/bachpanshala');
+  };
+    return (
     <>
       <section>
         <Carous />
@@ -97,7 +109,7 @@ const Home = () => {
                           experience, where every child's potential is embraced
                           and celebrated.
                         </Card.Text>
-                        <Button variant="primary" className="mt-auto">
+                        <Button variant="primary" className="mt-auto" onClick={handleBachpanshalaClick}>
                           Explore More
                         </Button>
                       </Card.Body>
@@ -123,7 +135,8 @@ const Home = () => {
                           and resources necessary for maintaining their health
                           with dignity.
                         </Card.Text>
-                        <Button variant="primary">Explore More</Button>
+                        <Button variant="primary"  className="mt-auto" onClick={handlemenstrualhygieneClick}>
+                          Explore More</Button>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -442,7 +455,8 @@ const Home = () => {
           </Container>
         </>
       </section>
-      <section className="impact" style={{ background: " #c7fbff" }}>
+      <section className="impact" 
+      style={{ background: " #c7fbff" }}>
         <Container>
           <Row>
             <Col lg="12" className="text-center">
@@ -479,10 +493,10 @@ const Home = () => {
                 src={streetplays}
                 alt="streetplay"
                 style={{
-                  width: "95%",
-                  height: "80%",
+                  width: "90%",
+                  height: "75%",
                   marginBottom: "-20px",
-                  marginTop: "-21px",
+                  marginTop: "-2px",
                 }}
               />
               <PlaysAnimation />

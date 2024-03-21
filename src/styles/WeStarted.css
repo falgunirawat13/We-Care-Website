@@ -1,34 +1,41 @@
 .image-container {
-    position: relative; /* Make the container a positioning context */
-    width: 100%;
-    max-width: 100%; /* Adjust the maximum width as needed */
-    height: 400px; /* Set the height to match your image */
+  position: relative; /* Make the container a positioning context */
+  width: 100%;
+  max-width: 100%; /* Adjust the maximum width as needed */
+  height: 400px; /* Set the height to match your image */
 }
-  .image-text {
-    position: absolute;
-    top: 220px; /* Adjust the position from the top as needed */
-    left: 100px; /* Adjust the position from the left as needed */
-    background-color: rgb(132, 202, 229,0.8);
-    color:black;
-    font-weight: 570;
-    font-size: 28px;
-    padding: 10px; /* Padding for text */
-  }
+.image-text {
+  position: absolute;
+  top: 220px; /* Adjust the position from the top as needed */
+  left: 100px; /* Adjust the position from the left as needed */
+  background-color: rgb(132, 202, 229, 0.8);
+  color: black;
+  font-weight: 570;
+  font-size: 28px;
+  padding: 10px; /* Padding for text */
+}
 
-  .head1 {
-    color: black; /* Set the color you prefer for the heading */
-    margin-top: 20px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-  }
-  
-  .para1 {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555; /* Set the color you prefer for the paragraph text */
-    margin-left: 58px;
-    margin-right: 58px;
-    text-align: justify;
-    font-size: 21px;
-  }
+.head1 {
+  color: black; /* Set the color you prefer for the heading */
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.para1 {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555; /* Set the color you prefer for the paragraph text */
+  margin-left: 58px;
+  margin-right: 58px;
+  text-align: justify;
+  font-size: 21px;
+}
+
+.What1 {
+  background-color: #c7fbff;
+  padding: 20px;
+}
+
+

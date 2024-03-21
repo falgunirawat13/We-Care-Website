@@ -15,9 +15,11 @@ import Vp from '../pages/Vp';
 import Sponsorship from "../pages/Sponsorship";
 import PartnerWithUs from "../pages/PartnerWithUs";
 import DonateNow from '../pages/DonateNow';
+import Bachpanshala from '../pages/Bachpanshala';
+
 
 const Routers = () => {
-  return (
+    return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Home" element={<Home/>} />
@@ -35,7 +37,8 @@ const Routers = () => {
       <Route path="/ContactUs" element={<ContactUs />} />
       <Route path="/OurWork" element={<OurWork />} />
       <Route path="/donate" element={<DonateNow />} />
-    </Routes>
+      <Route path="/bachpanshala" element={<Bachpanshala />} />
+      </Routes>
   );
 };
 
