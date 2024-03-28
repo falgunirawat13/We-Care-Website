@@ -71,9 +71,9 @@ export default function App() {
                 We Care
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                We Care is a registered non-profit organization under the Madhya
+                Pradesh Societies Registration Act, serial number –
+                01/01/01/37459/21
               </p>
             </MDBCol>
 
@@ -85,7 +85,7 @@ export default function App() {
                 </NavLink>
               </p>
               <p>
-                <NavLink to="/AboutUs" className="text-reset">
+                <NavLink to="/HowWeStarted" className="text-reset">
                   <a className="text-reset">About Us</a>
                 </NavLink>
               </p>
@@ -118,7 +118,7 @@ export default function App() {
                   <a className="text-reset">Blog</a>
                 </NavLink>
               </p>
-              
+
               <p>
                 <a href="/Impact" className="text-reset">
                   Help

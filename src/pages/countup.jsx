@@ -18,9 +18,7 @@ function TreesPlantedAnimation() {
 
   return (
     <div>
-      <CountUp end={1000} duration={2} useEasing={true} separator="," prefix="" style={countingStyle} />
-      {/* {" "}
-      <h3>+</h3> */}
+      <CountUp end={2000} duration={2} useEasing={true} separator="," prefix="" style={countingStyle} /> <span style ={{fontSize:"30px" , fontWeight:"bold"}}>+</span>
     </div>
   );
 }

@@ -28,33 +28,37 @@ const HowWeStarted = () => {
             <div className="textofwhat" style={{}}>
               <p className="para1">
                 <br />
-                <span>
-                  “A little love and care can revolutionize the entire world.”{" "}
+                <span style={{ fontWeight: "bold" }}>
+                  ---------------------“A little love and care can revolutionize
+                  the entire world”----------------------{" "}
                 </span>{" "}
+                <br />
+                <br />
                 We Care started as a simple Idea in the mind of a simple man
-                that someone must care for the Un-asked. We Care came into
-                existence in 2020 when the COVID-19 pandemic brought the entire
-                world to its knees. But the people who were most adversely
-                affected by the pandemic were the ones already deprived and left
-                behind by society. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. A rerum quis aut, mollitia dolores beatae
-                saepe earum facilis voluptatibus possimus!
+                that someone must care for the Un-asked.
+                <br />
+                <br />
+                We Care came into existence in 2020 when the COVID-19 pandemic
+                brought the entire world to its knees. But the people who were
+                most adversely affected by the pandemic were the ones already
+                deprived and left behind by society.
               </p>
             </div>
             <div className="imgofwhat">
               <img
                 src={carousel5}
-                alt="Your Image"
+                alt=""
                 style={{
-                  width: "100%",
-                  height: "100%",
+                  width: "83%",
+                  height: "90%",
                   objectFit: "cover",
-                 
-                  
+                  borderRadius: "0",
+                  marginTop: "30px",
                 }}
               />
             </div>
           </div>
+          <br />
 
           <p className="para1">
             It was the will and desire to change the destiny of these people
@@ -105,7 +109,7 @@ const HowWeStarted = () => {
       <section>
         <div>
           <h4 className="head1">
-            <br /> The Timeline{" "}
+            <br /> Our Timeline{" "}
           </h4>
           <p className="para1">
             <br />

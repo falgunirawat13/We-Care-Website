@@ -4,8 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import who1 from "../assets/images/whoweare1.JPG";
 import who2 from "../assets/images/whoweare2.jpg";
 import who3 from "../assets/images/whoweare3.jpg";
-import who4 from "../assets/images/whoweare4.jpg";
-import who5 from "../assets/images/whoweare5.JPG";
 import "../styles/Whowe.css";
 
 const Whowe = () => {
@@ -60,7 +58,7 @@ const Whowe = () => {
                 alt="..."
                 src={who3}
               ></MDBCarouselItem>
-              <MDBCarouselItem
+              {/* <MDBCarouselItem
                 className={`w-100 d-block ${
                   isSmallScreen ? "carousel-item-small" : "carousel-item-large"
                 }`}
@@ -68,7 +66,7 @@ const Whowe = () => {
                 alt="..."
                 src={who4}
               >
-                {/* Content for the carousel item */}
+               
               </MDBCarouselItem>
               <MDBCarouselItem
                 className={`w-100 d-block ${
@@ -78,8 +76,8 @@ const Whowe = () => {
                 alt="..."
                 src={who5}
               >
-                {/* Content for the carousel item */}
-              </MDBCarouselItem>
+                
+              </MDBCarouselItem> */}
             </MDBCarousel>
           </Col>
           <Col lg="6" style={{ marginLeft: "-2px" }}>
@@ -123,7 +121,6 @@ const Whowe = () => {
           </Col>
         </Row>
       </Container>
-      
     </>
   );
 };

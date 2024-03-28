@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import CountUp from 'react-countup';
 
-function PlaysAnimation() {
+function StudentsAnimation() {
   useEffect(() => {
     // Simulate fetching data or a timer to trigger the animation
     const timer = setTimeout(() => {
@@ -18,10 +18,10 @@ function PlaysAnimation() {
 
   return (
     <div>
-      <CountUp end={60} duration={2} useEasing={true} separator="," prefix="" style={countingStyle} />
+      <CountUp end={100} duration={2} useEasing={true} separator="," prefix="" style={countingStyle}/>
       <span style ={{fontSize:"30px" , fontWeight:"bold"}}>+</span>
     </div>
   );
 }
 
-export default PlaysAnimation;
+export default StudentsAnimation;

@@ -11,7 +11,9 @@ import streetplays from "../assets/images/streetplays.png";
 import tree from "../assets/images/tree.png";
 import schools from "../assets/images/schools.png";
 import play from "../assets/images/play.png";
+import volunteer from "../assets/images/volunteer1.png";
 import { MDBIcon } from "mdb-react-ui-kit";
+import StudentsAnimation from "./countupstudents";
 
 const Impact = () => {
   return (
@@ -41,7 +43,7 @@ const Impact = () => {
                 className="move-up-image " // Added mb-3 class for margin-bottom
                 src={growingtree}
                 alt="growingtree"
-                style={{ width: "80%", height: "68%" }}
+                style={{ width: "90%", height: "68%" }}
               />
               <TreesPlantedAnimation />
               <h3 class="main-head1">CLASSES TAUGHT</h3>
@@ -61,7 +63,7 @@ const Impact = () => {
                   marginTop: "-21px",
                 }}
               />
-              <PlaysAnimation />
+               <StudentsAnimation />
               <h3 class="main-head1">STUDENTS REACHED</h3>
             </Col>
             <Col
@@ -123,7 +125,7 @@ const Impact = () => {
             >
               <img
                 className="move-up-image " // Added mb-3 class for margin-bottom
-                src={thumbsup}
+                src={volunteer}
                 alt="school"
                 style={{
                   width: "102%",

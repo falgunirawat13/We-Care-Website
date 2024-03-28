@@ -19,6 +19,7 @@ function SchoolsAnimation() {
   return (
     <div>
       <CountUp end={200} duration={2} useEasing={true} separator="," prefix="" style={countingStyle}/>
+      <span style ={{fontSize:"30px" , fontWeight:"bold"}}>+</span>
     </div>
   );
 }

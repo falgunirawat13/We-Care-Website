@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import CountUp from 'react-countup';
+import React, { useEffect } from "react";
+import CountUp from "react-countup";
 
 function LivesImpactedAnimation() {
   useEffect(() => {
@@ -13,12 +13,20 @@ function LivesImpactedAnimation() {
 
   const countingStyle = {
     fontWeight: 1000,
-    fontSize: '28px'    
+    fontSize: "28px",
   };
 
   return (
-    <div style={{fontWeight:'200'}}>
-      <CountUp end={200} duration={2} useEasing={true} separator="," prefix=""  style={countingStyle}/>
+    <div style={{ fontWeight: "200" }}>
+      <CountUp
+        end={200}
+        duration={2}
+        useEasing={true}
+        separator=","
+        prefix=""
+        style={countingStyle}
+      />
+      <span style={{ fontSize: "30px", fontWeight: "bold" }}>+</span>
     </div>
   );
 }

@@ -2,10 +2,8 @@ import React, { useState, useEffect } from "react";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import { Container, Row, Col } from "react-bootstrap";
 import what1 from "../assets/images/whatwedo1.JPG";
-import what2 from "../assets/images/whatwedo2.JPG";
+import what2 from "../assets/images/whatwedo2.HEIC";
 import what3 from "../assets/images/whatwedo3.jpg";
-import what4 from "../assets/images/whatwedo4.jpg";
-import what5 from "../assets/images/whatwedo5.jpg";
 import "../styles/Whowe.css";
 
 const Whowe = () => {
@@ -94,7 +92,7 @@ const Whowe = () => {
                 alt="..."
                 src={what3}
               ></MDBCarouselItem>
-              <MDBCarouselItem
+              {/* <MDBCarouselItem
                 className={`w-100 d-block ${
                   isSmallScreen ? "carousel-item-small" : "carousel-item-large"
                 }`}
@@ -102,9 +100,9 @@ const Whowe = () => {
                 alt="..."
                 src={what4}
               >
-                {/* Content for the carousel item */}
-              </MDBCarouselItem>
-              <MDBCarouselItem
+                
+              </MDBCarouselItem> */}
+              {/* <MDBCarouselItem
                 className={`w-100 d-block ${
                   isSmallScreen ? "carousel-item-small" : "carousel-item-large"
                 }`}
@@ -112,8 +110,8 @@ const Whowe = () => {
                 alt="..."
                 src={what5}
               >
-                {/* Content for the carousel item */}
-              </MDBCarouselItem>
+              
+              </MDBCarouselItem> */}
             </MDBCarousel>
           </Col>
         </Row>

@@ -1,0 +1,34 @@
+.Camp {
+  /* margin-top: 40px; */
+  /* margin-bottom: 1%; */
+  background-image: url("../assets/images/backgroundhome.jpg");
+  background-size: contain;
+  max-height: fit-content;
+}
+
+.cardis {
+  margin-top: 7px;
+  height: 400px;
+  width: 98% !important;
+  border-radius: 50px !important;
+  margin-left: 6px;
+  margin-right: 6px !important;
+
+}
+
+.cardcamp {
+  /* background: rgba(255, 255, 255, 0.25); */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 30px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  max-width: 700px;
+  max-height: 1100px;
+}
+
+.Content5 {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+}

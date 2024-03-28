@@ -38,4 +38,15 @@
   padding: 20px;
 }
 
+.containerofwhat{
+  display: flex;
+  flex-direction: row;
+}
 
+.textofwhat {
+  flex: 1;
+}
+
+.imgofwhat {
+  flex: 0 0 38%;
+}
