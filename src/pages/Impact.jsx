@@ -4,6 +4,7 @@ import TreesPlantedAnimation from "./countup";
 import LivesImpactedAnimation from "./countuplives";
 import PlaysAnimation from "./countupplays";
 import SchoolsAnimation from "./countupschools";
+import VolunteerAnimation from "./countvol";
 import growingtree from "../assets/images/growingtree.png";
 import school from "../assets/images/school.png";
 import thumbsup from "../assets/images/thumbsup.png";
@@ -63,7 +64,7 @@ const Impact = () => {
                   marginTop: "-21px",
                 }}
               />
-               <StudentsAnimation />
+              <StudentsAnimation />
               <h3 class="main-head1">STUDENTS REACHED</h3>
             </Col>
             <Col
@@ -94,7 +95,7 @@ const Impact = () => {
                 alt="schools"
                 style={{ width: "89%", height: "70%", marginBottom: "-7px" }}
               />
-              <SchoolsAnimation />
+              <LivesImpactedAnimation />
               <h3 class="main-head1">ANIMALS SERVED</h3>
             </Col>
           </Row>
@@ -116,7 +117,7 @@ const Impact = () => {
                 alt="growingtree"
                 style={{ width: "80%", height: "68%" }}
               />
-              <TreesPlantedAnimation />
+              <VolunteerAnimation />
               <h3 class="main-head1">TREES PLANTED</h3>
             </Col>
             <Col
@@ -134,7 +135,7 @@ const Impact = () => {
                   marginTop: "40px",
                 }}
               />
-              <LivesImpactedAnimation />
+              <VolunteerAnimation />
               <h3 class="main-head1">VOLUNTEERS </h3>
             </Col>
             <Col

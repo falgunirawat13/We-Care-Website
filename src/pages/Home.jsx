@@ -97,16 +97,16 @@ const Home = () => {
                         BACHPANSHALA
                       </Card.Title>
                       <Card.Text className="Content5">
-                        Welcome to Bachpanshala, a transformative initiative
-                        pioneered by the NGO WeCare. Bachpanshala provides free
-                        education to underprivileged children. Beyond
-                        traditional academics, our holistic approach includes
-                        engaging sports activities and vibrant celebrations of
-                        festivals, fostering a dynamic learning environment.
-                        With a commitment to nurturing young minds, we blend
-                        study and play, ensuring a well-rounded educational
-                        experience, where every child's potential is embraced
-                        and celebrated.
+                        Welcome to Bachpanshala, a transformative and educational
+                        initiative pioneered by the NGO WeCare. Bachpanshala aims to
+                        provides free education to needy children.
+                        Beyond traditional academics, our holistic approach
+                        includes engaging sports activities and vibrant
+                        celebrations of festivals, fostering a dynamic learning
+                        environment. With a commitment to nurturing young minds,
+                        we blend study and play, ensuring a well-rounded
+                        educational experience, where every child's potential is well
+                        celebrated.
                       </Card.Text>
                       <Button
                         variant="primary"
@@ -126,7 +126,18 @@ const Home = () => {
                       <Card.Title className="text-center">
                         WOMEN EMPOWERMENT
                       </Card.Title>
-                      <Card.Text className="Content5"></Card.Text>
+                      <Card.Text className="Content5">
+                        At WeCare, we prioritize women's empowerment through
+                        diverse initiatives, recognizing that their success is
+                        essential for building stronger and more equitable
+                        communities. From educational programs to menstrual
+                        hygiene drives and inclusive sports events, we equip
+                        young girls with essential skills for a brighter future.
+                        Our efforts extend to fostering gender equality through
+                        initiatives like organizing football cups, ensuring
+                        women's voices are heard, and empowering them to lead
+                        fulfilling lives.
+                      </Card.Text>
                       <Button
                         variant="primary"
                         className="mt-auto"
@@ -145,7 +156,18 @@ const Home = () => {
                       <Card.Title className="text-center">
                         ANIMAL WELFARE
                       </Card.Title>
-                      <Card.Text className="Content5"></Card.Text>
+                      <Card.Text className="Content5">
+                        WeCare's sincere commitment to animal welfare is
+                        unwavering. Through Project Bicchona, we provide
+                        blankets and essential care for street dogs, ensuring
+                        their well-being during harsh conditions. Additionally,
+                        we have dog food donation drives to support their
+                        sustenance, reflecting our dedication to creating a
+                        safer, secure and more caring environment. Join us in
+                        advocating for those who cannot speak and ask for
+                        themselves, as we strive to make a lasting difference in
+                        their lives.
+                      </Card.Text>
                       <Button
                         variant="primary"
                         className="mt-auto"

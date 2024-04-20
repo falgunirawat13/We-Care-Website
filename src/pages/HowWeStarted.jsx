@@ -1,7 +1,8 @@
 import React from "react";
-import carousel5 from "../assets/images/carousel3.jpg";
+import car5 from "../assets/images/car5.jpg";
 import "../styles/WeStarted.css";
 import { MDBIcon } from "mdb-react-ui-kit";
+import video from "../assets/images/video1.mp4";
 import { Container, Row, Col } from "react-bootstrap";
 const HowWeStarted = () => {
   return (
@@ -9,16 +10,17 @@ const HowWeStarted = () => {
       <section>
         <div class="image-container">
           <img
-            src={carousel5}
+            src={car5}
             alt=""
             style={{
               objectFit: "cover",
               width: "100%",
               height: "400px",
               borderRadius: "0",
+              filter:"blur(3px)"
             }}
           />
-          <div class="image-text">HOW WE STARTED</div>
+          <div class="image-text" >HOW WE STARTED</div>
         </div>
         <div>
           <h4 className="head1">
@@ -29,24 +31,30 @@ const HowWeStarted = () => {
               <p className="para1">
                 <br />
                 <span style={{ fontWeight: "bold" }}>
-                  ---------------------“A little love and care can revolutionize
-                  the entire world”----------------------{" "}
+                  -------------------“A little love and care can revolutionize
+                  the entire world”--------------------{" "}
                 </span>{" "}
                 <br />
                 <br />
                 We Care started as a simple Idea in the mind of a simple man
-                that someone must care for the Un-asked.
+                that someone must care for the Un-asked. We Care came into
+                existence in 2020 when the COVID-19 pandemic brought the entire
+                world to its knees. But the people who were most adversely
+                affected by the pandemic were the ones already deprived and left
+                behind by society.
                 <br />
                 <br />
-                We Care came into existence in 2020 when the COVID-19 pandemic
-                brought the entire world to its knees. But the people who were
-                most adversely affected by the pandemic were the ones already
-                deprived and left behind by society.
+                Driven by the desire to make a tangible difference, We Care
+                embarked on a journey to address the root causes of societal
+                issues, extending support to marginalized communities and
+                advocating for their rights. Our initiatives, fueled by passion
+                and empathy, aim to create lasting impact and foster positive
+                change.
               </p>
             </div>
             <div className="imgofwhat">
               <img
-                src={carousel5}
+                src={car5}
                 alt=""
                 style={{
                   width: "83%",
@@ -95,7 +103,7 @@ const HowWeStarted = () => {
               <p style={{ fontSize: "20px", fontWeight: "bold" }}>
                 <MDBIcon fas icon="quote-left" className="pe-2" />
                 <span style={{ fontStyle: "italic" }}>
-                  One child , one Teacher , one Book , one Pen can change the
+                  One child, one Teacher, one Book, one Pen can change the
                   world.{" "}
                 </span>
                 <MDBIcon fas icon="quote-right" className="pe-2" />
@@ -106,7 +114,7 @@ const HowWeStarted = () => {
           </Row>
         </Container>
       </section>
-      <section>
+      <section className="timeline">
         <div>
           <h4 className="head1">
             <br /> Our Timeline{" "}
@@ -116,6 +124,7 @@ const HowWeStarted = () => {
             <video
               controls
               style={{ width: "80%", marginLeft: "150px", marginRight: "auto" }}
+              src={video}
             >
               <source src="your_video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
@@ -123,24 +132,7 @@ const HowWeStarted = () => {
           </p>
         </div>
       </section>
-
-      {/* <section className="What1">
-         <Container>
-          <Row>
-            <Col lg="12" className="text-center">
-              <p style={{ fontSize: "20px", fontWeight: "bold" }}>
-                <MDBIcon fas icon="quote-left" className="pe-2" />
-                <span style={{ fontStyle: "italic" }}>
-                  One child , one Teacher , one Book , one Pen can change the world.{" "}
-                </span>
-                <MDBIcon fas icon="quote-right" className="pe-2" />
-                <br />
-                Malala Yousafzai , Education Activist
-              </p>
-            </Col>
-          </Row>
-        </Container>
-        </section>    */}
+    
     </>
   );
 };

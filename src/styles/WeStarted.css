@@ -15,12 +15,30 @@
   padding: 10px; /* Padding for text */
 }
 
+
+
 .head1 {
   color: black; /* Set the color you prefer for the heading */
   margin-top: 12px;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
+}
+
+@media (min-width: 576px) {
+  .containerofwhat {
+    flex-direction: row; /* Change back to horizontal layout on larger screens */
+  }
+
+  .textofwhat {
+    flex: 1; /* Let text occupy full width */
+    margin-bottom: 0; /* Remove margin for larger screens */
+    margin-right: 20px; /* Add some space between text and image */
+  }
+
+  .imgofwhat {
+    flex: 0 0 30%; /* Adjust width of image container */
+  }
 }
 
 .para1 {
@@ -38,7 +56,7 @@
   padding: 20px;
 }
 
-.containerofwhat{
+.containerofwhat {
   display: flex;
   flex-direction: row;
 }
@@ -49,4 +67,52 @@
 
 .imgofwhat {
   flex: 0 0 38%;
+}
+
+.timeline {
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+
+.timeline h4 {
+  font-size: 48px;
+}
+
+.timeline p {
+  font-size: 16px;
+}
+
+.timeline video {
+  width: 80%; /* Adjust width as needed */
+  margin: auto; /* Center the video horizontally */
+}
+
+@media (max-width: 768px) {
+  .timeline h4 {
+    font-size: 29px;
+  }
+
+  .timeline p {
+    font-size: 14px;
+  }
+
+  .timeline video {
+    width: 100px; /* Adjust width as needed */
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .timeline h4 {
+    font-size: 29px;
+  }
+
+  .timeline p {
+    font-size: 12px;
+  }
+
+  .timeline video {
+    width: 354px !important;
+    margin-left: -38px !important; /* Adjust width as needed */
+  }
 }

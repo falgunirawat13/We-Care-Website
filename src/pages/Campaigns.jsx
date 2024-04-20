@@ -1,5 +1,5 @@
 import React from "react";
-import carousel5 from "../assets/images/carousel3.jpg";
+import campaign from "../assets/images/Campaigns.jpg";
 import "../styles/Campaigns.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
@@ -10,6 +10,7 @@ import card33 from "../assets/images/Bichona.jpg";
 import card44 from "../assets/images/Road.JPG";
 import card55 from "../assets/images/Charity Cup.jpg";
 import card66 from "../assets/images/plantation.jpg";
+import card77 from "../assets/images/menstrual_hygeine.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Campaigns = () => {
@@ -30,13 +31,14 @@ const Campaigns = () => {
       <div>
         <div className="image-container">
           <img
-            src={carousel5}
+            src={campaign}
             alt=""
             style={{
               objectFit: "cover",
               width: "100%",
-              height: "400px",
+              height: "600px",
               borderRadius: "0",
+              marginBottom: "20px",
             }}
           />
           <div className="image-text">OUR INITIATIVES</div>
@@ -48,10 +50,15 @@ const Campaigns = () => {
           <Container>
             <Row>
               <br />
-              <br/>
+              <br />
             </Row>
             <Row>
-              <Col lg="6" md="6" sm="12" style={{ marginBottom: "3%" }}>
+              <Col
+                lg="6"
+                md="6"
+                sm="12"
+                style={{ marginBottom: "3%", marginTop: "14%" }}
+              >
                 <Card className="cardcamp" style={{ width: "100%" }}>
                   <Card.Img className="cardis" variant="top" src={card11} />
                   <Card.Body className="text-center d-flex flex-column align-items-center">
@@ -80,7 +87,12 @@ const Campaigns = () => {
                 </Card>
               </Col>
 
-              <Col lg="6" md="6" sm="12" style={{ marginBottom: "3%" }}>
+              <Col
+                lg="6"
+                md="6"
+                sm="12"
+                style={{ marginBottom: "3%", marginTop: "14%" }}
+              >
                 <Card className="cardcamp" style={{ width: "100%" }}>
                   <Card.Img className="cardis" variant="top" src={card22} />
                   <Card.Body className="text-center d-flex flex-column align-items-center">
@@ -88,15 +100,15 @@ const Campaigns = () => {
                       WOMEN EMPOWERMENT
                     </Card.Title>
                     <Card.Text className="Content5">
-                      Welcome to Bachpanshala, a transformative initiative
-                      pioneered by the NGO WeCare. Bachpanshala provides free
-                      education to underprivileged children. Beyond traditional
-                      academics, our holistic approach includes engaging sports
-                      activities and vibrant celebrations of festivals,
-                      fostering a dynamic learning environment. With a
-                      commitment to nurturing young minds, we blend study and
-                      play, ensuring a well-rounded educational experience,
-                      where every child's potential is embraced and celebrated.
+                      At WeCare, we prioritize women's empowerment through
+                      diverse initiatives, recognizing that their success is
+                      essential for building stronger and more equitable
+                      communities.From educational programs to menstrual hygiene
+                      drives and inclusive sports events, we equip young girls
+                      with essential skills for a brighter future. Our efforts
+                      extend to fostering gender equality through initiatives
+                      like organizing football cups, ensuring women's voices are
+                      heard, and empowering them to lead fulfilling lives.
                     </Card.Text>
                     <Button
                       variant="primary"
@@ -117,15 +129,15 @@ const Campaigns = () => {
                       ANIMAL WELFARE
                     </Card.Title>
                     <Card.Text className="Content5">
-                      Welcome to Bachpanshala, a transformative initiative
-                      pioneered by the NGO WeCare. Bachpanshala provides free
-                      education to underprivileged children. Beyond traditional
-                      academics, our holistic approach includes engaging sports
-                      activities and vibrant celebrations of festivals,
-                      fostering a dynamic learning environment. With a
-                      commitment to nurturing young minds, we blend study and
-                      play, ensuring a well-rounded educational experience,
-                      where every child's potential is embraced and celebrated.
+                      WeCare's sincere commitment to animal welfare is
+                      unwavering. Through Project Bicchona, we provide blankets
+                      and essential care for street dogs, ensuring their
+                      well-being during harsh conditions. Additionally, we have
+                      dog food donation drives to support their sustenance,
+                      reflecting our dedication to creating a safer, secure and
+                      more caring environment. Join us in advocating for those
+                      who cannot speak and ask for themselves, as we strive to
+                      make a lasting difference in their lives.
                     </Card.Text>
                     <Button
                       variant="primary"
@@ -206,11 +218,11 @@ const Campaigns = () => {
                       together we can do so much”, WeCare spreads joy through
                       vibrant donation drives. In the past, we shared smiles by
                       providing clothing to children and older individuals in
-                      need. Simultaneously, our heartfelt food donation drive
-                      has touched the lives of both homeless individuals on the
-                      streets and our furry friends, the stray animals. These
-                      endeavors reflect our unwavering commitment to making the
-                      world a brighter place, one act of generosity at a time.
+                      need. Our heartfelt food donation drive has touched the
+                      lives of both homeless individuals on the streets and our
+                      furry friends, the stray animals. These endeavors reflect
+                      our unwavering commitment to making the world a brighter
+                      place, one act of generosity at a time.
                     </Card.Text>
                     <Button
                       variant="primary"
@@ -225,7 +237,7 @@ const Campaigns = () => {
 
               <Col lg="6" md="6" sm="12" style={{ marginBottom: "3%" }}>
                 <Card className="cardcamp" style={{ width: "100%" }}>
-                  <Card.Img className="cardis" variant="top" />
+                  <Card.Img className="cardis" variant="top" src={card77} />
                   <Card.Body className="text-center d-flex flex-column align-items-center">
                     <Card.Title className="text-center">
                       MENSTRUAL HYGIENE
@@ -268,7 +280,7 @@ const Campaigns = () => {
                       well-being, we actively provide blankets through this
                       project. This ensures these resilient animals not only
                       receive physical comfort but also the care and support
-                      necessary for a significantly improved quality of life.
+                      necessary for a improved quality of life.
                     </Card.Text>
                     <Button
                       variant="primary"
