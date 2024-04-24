@@ -15,30 +15,12 @@
   padding: 10px; /* Padding for text */
 }
 
-
-
 .head1 {
   color: black; /* Set the color you prefer for the heading */
   margin-top: 12px;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
-}
-
-@media (min-width: 576px) {
-  .containerofwhat {
-    flex-direction: row; /* Change back to horizontal layout on larger screens */
-  }
-
-  .textofwhat {
-    flex: 1; /* Let text occupy full width */
-    margin-bottom: 0; /* Remove margin for larger screens */
-    margin-right: 20px; /* Add some space between text and image */
-  }
-
-  .imgofwhat {
-    flex: 0 0 30%; /* Adjust width of image container */
-  }
 }
 
 .para1 {
@@ -114,5 +96,17 @@
   .timeline video {
     width: 354px !important;
     margin-left: -38px !important; /* Adjust width as needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .containerofwhat {
+    flex-direction: column;
+  }
+
+  .imgofwhat {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
   }
 }

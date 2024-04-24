@@ -50,12 +50,11 @@ const Home = () => {
               <p style={{ fontSize: "20px", fontWeight: "bold" }}>
                 <MDBIcon fas icon="quote-left" className="pe-2" />
                 <span style={{ fontStyle: "italic" }}>
-                  There is no greater violence than to deny the dreams of our
-                  children{" "}
+                  Education is the key to unlock a golden door of freedom.{" "}
                 </span>
                 <MDBIcon fas icon="quote-right" className="pe-2" />
                 <br />
-                Kailash Satyarthi, Nobel Laurate in Peace
+                George Washington Carver
               </p>
             </Col>
           </Row>
@@ -97,16 +96,16 @@ const Home = () => {
                         BACHPANSHALA
                       </Card.Title>
                       <Card.Text className="Content5">
-                        Welcome to Bachpanshala, a transformative and educational
-                        initiative pioneered by the NGO WeCare. Bachpanshala aims to
-                        provides free education to needy children.
-                        Beyond traditional academics, our holistic approach
-                        includes engaging sports activities and vibrant
+                        Welcome to Bachpanshala, a transformative and
+                        educational initiative pioneered by the NGO WeCare.
+                        Bachpanshala aims to provides free education to needy
+                        children. Beyond traditional academics, our holistic
+                        approach includes engaging sports activities and vibrant
                         celebrations of festivals, fostering a dynamic learning
                         environment. With a commitment to nurturing young minds,
                         we blend study and play, ensuring a well-rounded
-                        educational experience, where every child's potential is well
-                        celebrated.
+                        educational experience, where every child's potential is
+                        well celebrated.
                       </Card.Text>
                       <Button
                         variant="primary"
