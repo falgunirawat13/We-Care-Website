@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import card11 from "../assets/images/bachpanshala.jpg";
 import card22 from "../assets/images/menstrual.jpg";
 import card33 from "../assets/images/Bichona.jpg";
-import card44 from "../assets/images/Road.JPG";
+import card44 from "../assets/images/Road.jpg";
 import card55 from "../assets/images/Charity Cup.jpg";
 import card66 from "../assets/images/plantation.jpg";
 import card77 from "../assets/images/menstrual_hygeine.jpg";
